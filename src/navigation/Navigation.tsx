@@ -12,6 +12,7 @@ import ServiceDetailsMain from '../pages/ServiceDetailsMain';
 // import ProjectMain from '../pages/ProjectMain';
 import Proveedores from '../pages/proveedores';
 import Socios from '../pages/socios';
+import Certificaciones from '../pages/certificaciones';
 import Convenios from '../pages/convenios';
 import ProjectDetailsMain from '../pages/ProjectDetailsMain';
 import TeamMain from '../pages/TeamMain';
@@ -37,6 +38,7 @@ const AppNavigation = () => {
         <Route path="/services-details" element={<ServiceDetailsMain />} />
         <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/socios" element={<Socios />} />
+        <Route path="/certificaciones" element={<Certificaciones />} />
         <Route path="/convenios" element={<Convenios />} />
         <Route path="/project-details" element={<ProjectDetailsMain />} />
         <Route path="/team" element={<TeamMain />} />
