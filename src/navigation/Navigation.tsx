@@ -1,10 +1,11 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Index from '../pages/index'
 // import HomeMain from '../pages/HomeMain'
-import HomeTwoMain from '../pages/HomeTwoMain';
+// import HomeTwoMain from '../pages/HomeTwoMain';
+import Eventos from '../pages/eventos';
 import HomeThreeMain from '../pages/HomeThreeMain';
 import DarkHomeMain from '../pages/DarkHomeMain';
-import AboutMain from '../pages/AboutMain';
+// import AboutMain from '../pages/AboutMain';
 import QuienesSomos from '../pages/quienes_Somos';
 import ServiceMain from '../pages/ServiceMain';
 import ServiceDetailsMain from '../pages/ServiceDetailsMain';
@@ -24,7 +25,7 @@ const AppNavigation = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/home-two" element={<HomeTwoMain />} />
+        <Route path="/eventos" element={<Eventos />} />
         <Route path="/home-three" element={<HomeThreeMain />} />
         <Route path="/dark-home" element={<DarkHomeMain />} />
         <Route path="/quienes_Somos" element={<QuienesSomos />} />
