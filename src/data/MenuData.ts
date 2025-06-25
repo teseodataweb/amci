@@ -67,6 +67,7 @@ const menu_data: MenuItem[] = [
             { link: "/certificaciones", title: "Certificaciones" },
             { link: "/maquinaria", title: "Maquinaria" },
             { link: "/software", title: "Software" },
+            { link: "/gestion", title: "Gestion" },
         ],
     },
     {

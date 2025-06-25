@@ -25,6 +25,7 @@ import BlogDetailsMain from '../pages/BlogDetailsMain';
 import Contacto from '../pages/contacto';
 import Maquinaria from '../pages/maquinaria';
 import Software from '../pages/software';
+import Gestion from '../pages/gestion';
 import ErrorMain from '../pages/ErrorMain';
 
 const AppNavigation = () => {
@@ -52,6 +53,7 @@ const AppNavigation = () => {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/maquinaria" element={<Maquinaria />} />
         <Route path="/software" element={<Software />} />
+        <Route path="/gestion" element={<Gestion />} />
         <Route path="*" element={<ErrorMain />} />
       </Routes>
     </Router>
