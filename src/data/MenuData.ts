@@ -83,8 +83,8 @@ const menu_data: MenuItem[] = [
     {
         id: 6,
         has_dropdown: false,
-        title: "Contact",
-        link: "/contact",
+        title: "Contacto",
+        link: "/contacto",
     },
 ];
 
