@@ -40,11 +40,11 @@ const Project = ({ style }: PropType) => {
          <div className="small-container">
             <div className="project-two-title-area mb-60">
                <div className="title-box wow fadeInLeft" data-wow-delay=".5s">
-                  <span className="section-sub-title">portfolio</span>
-                  <h3 className="section-title mt-10">Our Latest Projects</h3>
+                  <span className="section-sub-title">PUBLICACIONES DESTACADAS</span>
+                  <h3 className="section-title mt-10">Lo más reciente del sector concretero</h3>
                </div>
                <Link className="primary-btn-1 btn-hover" to="/projects">
-                  all  PROJECTS &nbsp; | <i className="icon-right-arrow"></i>
+                  Ver todas &nbsp; | <i className="icon-right-arrow"></i>
                   <span style={{ top: "147.172px", left: "108.5px" }}></span>
                </Link>
             </div>

@@ -15,24 +15,10 @@ const banner_data: DataType[] = [
    {
       id: 1,
       thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
-   },
-   {
-      id: 2,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
-   },
-   {
-      id: 3,
-      thumb: "assets/imgs/banner/banner-3.jpg",
-      sub_title: "PROVIDE THE BEST SERVICES",
-      title: "Our Best Roofing Services & Consulting",
-      desc: (<>We denounce with righteous indignation and dislike men who are so<br /> beguiled and demoralized by the charms of pleasure.</>),
-   },
+      sub_title: "IMPULSAMOS A LA INDUSTRIA CONCRETERA",
+      title: "La Asociación de Concreteros Independientes de México",
+      desc: (<>Representamos, conectamos y fortalecemos al gremio concretero con capacitación, eventos, datos y alianzas estratégicas. Tu planta, respaldada por toda una comunidad.</>),
+   }
 ]
 
 const setting = {
@@ -65,15 +51,13 @@ const Banner = () => {
                            <p className="banner-text">{item.desc}</p>
                            <div className="banner-btn-area-2">
                               <Link className="primary-btn-1 btn-hover" to="/services">
-                                 VIEW SERVICES &nbsp; | <i className="icon-right-arrow"></i>
+                                 Conoce los beneficios<i className="icon-right-arrow"></i>
                                  <span style={{ top: "147.172px", left: "108.5px" }}></span>
                               </Link>
-                              <div className="round-image-area">
-                                 <div className="image-1">
-                                    <img src="/assets/imgs/banner/clients-group.png" alt="" />
-                                 </div>
-                              </div>
-                              <h6>satisfied clients</h6>
+                              <Link className="primary-btn-1 btn-hover" to="#">
+                                 Afíliate hoy<i className="icon-right-arrow"></i>
+                                 <span style={{ top: "147.172px", left: "108.5px" }}></span>
+                              </Link>
                            </div>
                         </div>
                         <div className="socials-area">

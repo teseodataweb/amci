@@ -14,26 +14,26 @@ interface DataType {
 }
 
 const choose_data: DataType = {
-   sub_title: "why choose us",
-   title: "What's Make Us Different",
+   sub_title: "Ventajas AMCI",
+   title: "Lo que nos hace diferentes",
    feature_list: [
       {
          id: 1,
          icon: "icon-roof-4",
-         title: "Commercial Roofing",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         title: "Representamos al Gremio",
+         desc: "Damos voz nacional a concreteros independientes ante instituciones, normativas y cadenas de suministro.",
       },
       {
          id: 2,
          icon: "icon-target",
-         title: "Mission Statement Roofing",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         title: "Enfoque Técnico y Realista",
+         desc: "Nuestros contenidos, talleres y reportes parten de datos reales del mercado y experiencia operativa en obra.",
       },
       {
          id: 3,
          icon: "icon-help",
-         title: "Safety And Reliability",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         title: "Comunidad y Confianza",
+         desc: "Conectamos concreteros en todo México para compartir buenas prácticas, resolver problemas comunes y crecer juntos.",
       },
    ],
 }

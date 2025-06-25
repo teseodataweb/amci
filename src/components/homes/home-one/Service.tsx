@@ -8,19 +8,19 @@ interface TabData {
 const tab_title: TabData[] = [
    {
       icon: "icon-roof-7",
-      title: "Modified Roofing",
+      title: "Afiliación AMCI",
    },
    {
       icon: "icon-roof-2",
-      title: "Roof Installation",
+      title: "Capacitación técnica",
    },
    {
       icon: "icon-roof-8",
-      title: "Roof Cornering",
+      title: "Certificaciones & NMX",
    },
    {
       icon: "icon-roof-4",
-      title: "Roof Renovation",
+      title: "Vinculación con proveedores",
    },
 ];
 
@@ -36,30 +36,30 @@ const service_data: DataType[] = [
    {
       id: 1,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Modified Roofing",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Conecta con la comunidad",
+      desc: "Con tu afiliación, accedes a eventos exclusivos, vinculación con proveedores estratégicos y representación ante instituciones del sector.",
+      list: ["Representación gremial activa", "Eventos y desayunos regionales", "Boletines y publicaciones especializadas"],
    },
    {
       id: 2,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Roof Installation",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Cursos especializados",
+      desc: "Desde operación segura de bomba pluma hasta normativas técnicas NMX, nuestros programas están diseñados para elevar el nivel profesional de concreteros y sus equipos.",
+      list: ["Cursos presenciales y online", "Convenios con IMCYC y certificadoras", "Formación práctica y avalada por expertos"],
    },
    {
       id: 3,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Roof Cornering",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Normativa técnica",
+      desc: "Te guiamos paso a paso en el proceso de certificación de planta, personal o procesos conforme a las Normas Mexicanas (NMX). Aprovecha descuentos con organismos aliados como el IMCYC.",
+      list: ["Asesoría personalizada", "Normas NMX vigentes y aplicables", "Certificaciones de planta, transporte y muestreo"],
    },
    {
       id: 4,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
-      title: "Roof Renovation",
-      desc: "It is a long established fact that a reader will content of a page when looking at layout the point of using lorem.",
-      list: ["Accurate Testing Processes", "100% Satisfaction Guarantee", "Award Winning Company"],
+      title: "Mejores precios",
+      desc: "Como miembro de AMCI, obtienes beneficios exclusivos con proveedores líderes en cemento, maquinaria, aditivos, refacciones, software y más.",
+      list: ["Convenios con Cemex, Moctezuma, Odisa", "Acceso a créditos y financiamiento", "Ahorros reales y apoyo logístico"],
    },
 ];
 
@@ -84,13 +84,13 @@ const Service = ({ style }: PropType) => {
          <div className="small-container">
             <div className="service-tab-title-area mb-70">
                <div className="title-box wow fadeInLeft" data-wow-delay=".5s">
-                  <span className="section-sub-title">WHAT WE DO</span>
-                  <h3 className="section-title mt-10 text-white p-relative">Delivering High Quality <br />Roof Services</h3>
+                  <span className="section-sub-title">Servicios que impulsan tu operación</span>
+                  <h3 className="section-title mt-10 text-white p-relative">Soluciones técnicas, logísticas y gremiales para la industria del concreto</h3>
                </div>
-               <Link className="primary-btn-4 btn-hover mt-20" to="/services">
-                  all services &nbsp; | <i className="icon-right-arrow"></i>
+               {/* <Link className="primary-btn-4 btn-hover mt-20" to="/services">
+                  Todos nuestros servicios &nbsp; | <i className="icon-right-arrow"></i>
                   <span style={{ top: "147.172px", left: "108.5px" }}></span>
-               </Link>
+               </Link> */}
             </div>
 
             <div className="row">
@@ -130,7 +130,7 @@ const Service = ({ style }: PropType) => {
                                        ))}
                                     </ul>
                                     <Link className="primary-btn-1 btn-hover mt-20" to="/services">
-                                       Read more &nbsp; | <i className="icon-right-arrow"></i>
+                                       Saber mas &nbsp; | <i className="icon-right-arrow"></i>
                                        <span style={{ top: "147.172px", left: "108.5px" }}></span>
                                     </Link>
                                  </div>

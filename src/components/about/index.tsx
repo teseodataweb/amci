@@ -1,24 +1,24 @@
 import AboutHome from "../../components/homes/home-three/About"
-import BreadCrumb from "../common/BreadCrumb"
+// import BreadCrumb from "../common/BreadCrumb"
 import Choose from "../homes/home-three/Choose"
-import Process from "../homes/home-one/Process"
-import Team from "../homes/home-three/Team"
-import Map from "./Map"
+import Process from "./process"
+// import Team from "../homes/home-three/Team"
+// import Map from "./Map"
 import HeaderThree from "../../layouts/headers/HeaderThree"
-import FooterThree from "../../layouts/footers/FooterThree"
+// import FooterThree from "../../layouts/footers/FooterThree"
 
 const About = () => {
    return (
       <>
          <HeaderThree />
          <main>
-            <BreadCrumb sub_title="About" title="About" />
+            {/* <BreadCrumb sub_title="About" title="About" /> */}
             <AboutHome />
             <Choose />
             <Process style={false} />
-            <Team />
+            {/* <Team />
             <Map />
-            <FooterThree />
+            <FooterThree /> */}
          </main>
       </>
    )

@@ -25,6 +25,7 @@ const menu_data: MenuItem[] = [
             { link: "/home-two", title: "Home Two" },
             { link: "/home-three", title: "Home Three" },
             { link: "/dark-home", title: "Home Dark" },
+            { link: "/home_amci", title: "Home AMCI" },
         ],
     },
     {

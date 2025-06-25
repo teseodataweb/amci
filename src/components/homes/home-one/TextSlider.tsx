@@ -1,4 +1,4 @@
-const text_slider: string[] = ["ROOF RENOVATION", "MODIFIED ROOFING", "ROOF INSTALLATION", "ROOF RENOVATION", "MODIFIED ROOFING", "ROOF INSTALLATION"];
+const text_slider: string[] = ["CONCRETO", "INDUSTRIA", "CONCRETO", "INDUSTRIA", "CONCRETO", "INDUSTRIA"];
 
 interface PropType {
    style: boolean;
