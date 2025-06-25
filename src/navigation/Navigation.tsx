@@ -26,6 +26,7 @@ import Contacto from '../pages/contacto';
 import Maquinaria from '../pages/maquinaria';
 import Software from '../pages/software';
 import Gestion from '../pages/gestion';
+import Hoteles from '../pages/hoteles';
 import ErrorMain from '../pages/ErrorMain';
 
 const AppNavigation = () => {
@@ -54,6 +55,7 @@ const AppNavigation = () => {
         <Route path="/maquinaria" element={<Maquinaria />} />
         <Route path="/software" element={<Software />} />
         <Route path="/gestion" element={<Gestion />} />
+        <Route path="/hoteles" element={<Hoteles />} />
         <Route path="*" element={<ErrorMain />} />
       </Routes>
     </Router>

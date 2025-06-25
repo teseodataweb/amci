@@ -1,0 +1,22 @@
+/* Correcciones */
+
+.choose-area-icon-box .icon-box {
+  color: var(--theme-color);
+  background: #fff;
+  padding: 20px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;      /* <-- Fuerza el mismo ancho para todos */
+  height: 80px;     /* <-- Opcional: igual alto para todos */
+  min-width: 80px;  /* <-- Opcional: asegura el ancho mínimo */
+  min-height: 80px; /* <-- Opcional: asegura el alto mínimo */
+  box-sizing: border-box;
+}
+
+/* Fin Correcciones */
+
+/* Colores */
+
+/* Fin Colores */
