@@ -18,7 +18,7 @@ const BreadCrumb = ({ sub_title, title }: DataType) => {
                      <div className="breadcrumb__menu">
                         <nav>
                            <ul>
-                              <li><span><Link to="/">Home</Link></span></li>
+                              <li><span><Link to="/">Inicio</Link></span></li>
                               <li><span>{title}</span></li>
                            </ul>
                         </nav>

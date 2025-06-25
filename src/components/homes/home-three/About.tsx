@@ -16,21 +16,21 @@ interface DataType {
 }
 
 const about_data: DataType = {
-   sub_title: "About Us",
-   title: "Devoted to Delivering Top Notch Roofing Solutions",
-   desc: "It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.",
+   sub_title: "Sobre AMCI",
+   title: "Impulsamos la Fuerza del Concreto Independiente",
+   desc: "Desde 2003 representamos a concreteros independientes en todo México. Conectamos, capacitamos y fortalecemos al gremio con una visión colaborativa, sostenible y técnica.",
    feature_list: [
       {
          id: 1,
          icon: "icon-roof",
-         title: "Commercial Roofing",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         title: "Concreteros Unidos",
+         desc: "Impulsamos alianzas, representación gremial y voz sectorial para pequeñas y medianas concreteras.",
       },
       {
          id: 2,
          icon: "icon-roof-9",
-         title: "Best Roofing Warranty",
-         desc: "Embarrassing hidden in the middle All the Lorem Ipsum generators on the Internet repeat predefined chunks",
+         title: "Formación Continua",
+         desc: "Capacitaciones técnicas, certificaciones y convenios con el IMCYC para profesionalizar al sector.",
       },
    ],
 }
@@ -99,7 +99,7 @@ const About = () => {
                      ))}
                      <div className="about-btn-box wow fadeInLeft" data-wow-delay="1s">
                         <Link className="primary-btn-1 btn-hover" to="/about">
-                           about us &nbsp; | <i className="icon-right-arrow"></i>
+                           Conócenos &nbsp; | <i className="icon-right-arrow"></i>
                            <span style={{ top: "147.172px", left: "108.5px" }}></span>
                         </Link>
                      </div>

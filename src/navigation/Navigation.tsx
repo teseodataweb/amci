@@ -5,6 +5,7 @@ import HomeTwoMain from '../pages/HomeTwoMain';
 import HomeThreeMain from '../pages/HomeThreeMain';
 import DarkHomeMain from '../pages/DarkHomeMain';
 import AboutMain from '../pages/AboutMain';
+import QuienesSomos from '../pages/quienes_Somos';
 import ServiceMain from '../pages/ServiceMain';
 import ServiceDetailsMain from '../pages/ServiceDetailsMain';
 import ProjectMain from '../pages/ProjectMain';
@@ -26,7 +27,7 @@ const AppNavigation = () => {
         <Route path="/home-two" element={<HomeTwoMain />} />
         <Route path="/home-three" element={<HomeThreeMain />} />
         <Route path="/dark-home" element={<DarkHomeMain />} />
-        <Route path="/about" element={<AboutMain />} />
+        <Route path="/quienes_Somos" element={<QuienesSomos />} />
         <Route path="/services" element={<ServiceMain />} />
         <Route path="/services-details" element={<ServiceDetailsMain />} />
         <Route path="/projects" element={<ProjectMain />} />
