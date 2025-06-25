@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import HomeMain from '../pages/HomeMain'
+import Index from '../pages/index'
+// import HomeMain from '../pages/HomeMain'
 import HomeTwoMain from '../pages/HomeTwoMain';
 import HomeThreeMain from '../pages/HomeThreeMain';
 import DarkHomeMain from '../pages/DarkHomeMain';
@@ -21,7 +22,7 @@ const AppNavigation = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomeMain />} />
+        <Route path="/" element={<Index />} />
         <Route path="/home-two" element={<HomeTwoMain />} />
         <Route path="/home-three" element={<HomeThreeMain />} />
         <Route path="/dark-home" element={<DarkHomeMain />} />

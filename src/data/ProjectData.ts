@@ -9,38 +9,24 @@ interface DataType {
 const project_data: DataType[] = [
    {
       id: 1,
-      page: "home_1",
+      page: "index",
       thumb: "/assets/imgs/project/project-5.jpg",
-      sub_title: "roof Design",
-      title: "Modified Roofing",
+      sub_title: "Revista México en Concreto – Ed. 110",
+      title: "Junio 2025",
    },
    {
       id: 2,
-      page: "home_1",
+      page: "index",
       thumb: "/assets/imgs/project/project-6.jpg",
-      sub_title: "roof Design",
-      title: "Modified Roofing",
+      sub_title: "Informe Nacional del Concreto 2025",
+      title: "Reporte estratégico de mercado",
    },
    {
       id: 3,
-      page: "home_1",
+      page: "index",
       thumb: "/assets/imgs/project/project-7.jpg",
-      sub_title: "roof Design",
-      title: "Modified Roofing",
-   },
-   {
-      id: 4,
-      page: "home_1",
-      thumb: "/assets/imgs/project/project-8.jpg",
-      sub_title: "roof Design",
-      title: "Modified Roofing",
-   },
-   {
-      id: 5,
-      page: "home_1",
-      thumb: "/assets/imgs/project/project-7.jpg",
-      sub_title: "roof Design",
-      title: "Modified Roofing",
+      sub_title: "Guía para Certificaciones NMX",
+      title: "Capacitación y normativas actualizadas",
    },
 
    // home_2
