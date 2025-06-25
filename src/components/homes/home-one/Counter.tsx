@@ -12,28 +12,30 @@ const counter_data: DataType[] = [
    {
       id: 1,
       icon: "icon-home-1",
-      number: 300,
-      title: "Successfully Projects",
+      number: 280,
+      title: "concreteras afiliadas",
       number_text: "+"
    },
    {
       id: 2,
       icon: "icon-team",
-      number: 450,
-      title: "Company Staffs",
+      number: 420,
+      title: "personas capacitadas",
       number_text: "+"
    },
    {
       id: 3,
       icon: "icon-prize-box",
       number: 3150,
-      title: "Tons of Products",
+      title: "concreto rastreado",
+      number_text: "m²"
    },
    {
       id: 4,
       icon: "icon-team-1",
-      number: 6561,
-      title: "Satisfied Clients",
+      number: 6500,
+      title: "contactos conectados",
+      number_text: "+"
    },
 ];
 

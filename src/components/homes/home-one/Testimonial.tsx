@@ -38,10 +38,10 @@ const Testimonial = () => {
                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
                   <div className="testimonials-area">
                      <div className="title-box mb-40 wow fadeInLeft" data-wow-delay=".5s">
-                        <span className="section-sub-title">Testimonials</span>
-                        <h3 className="section-title mt-10">Clients Feedback</h3>
+                        <span className="section-sub-title">TESTIMONIOS</span>
+                        <h3 className="section-title mt-10">Lo que opinan nuestros afiliados</h3>
                      </div>
-                     <p className="mb-40">It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point of using lorem the is Ipsum less normal distribution of letters.</p>
+                     <p className="mb-40">Las experiencias de concreteros en todo México reflejan el impacto real de nuestra comunidad. Desde capacitaciones hasta eventos nacionales, AMCI fortalece a quienes construyen el país todos los días.</p>
                      <div className="testimonials-box">
                         <Swiper {...setting} modules={[Autoplay, Navigation]} className="swiper testimonial-active-1">
                            {testi_data.filter((items) => items.page === "home_1").map((item) => (
