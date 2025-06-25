@@ -27,6 +27,7 @@ import Maquinaria from '../pages/maquinaria';
 import Software from '../pages/software';
 import Gestion from '../pages/gestion';
 import Hoteles from '../pages/hoteles';
+import MNX from '../pages/mnx';
 import ErrorMain from '../pages/ErrorMain';
 
 const AppNavigation = () => {
@@ -56,6 +57,7 @@ const AppNavigation = () => {
         <Route path="/software" element={<Software />} />
         <Route path="/gestion" element={<Gestion />} />
         <Route path="/hoteles" element={<Hoteles />} />
+        <Route path="/mnx" element={<MNX />} />
         <Route path="*" element={<ErrorMain />} />
       </Routes>
     </Router>

@@ -69,6 +69,7 @@ const menu_data: MenuItem[] = [
             { link: "/software", title: "Software" },
             { link: "/gestion", title: "Gestion" },
             { link: "/hoteles", title: "Hoteles" },
+            { link: "/mnx", title: "MNX" },
         ],
     },
     {
