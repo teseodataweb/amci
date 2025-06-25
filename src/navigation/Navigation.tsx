@@ -9,7 +9,8 @@ import DarkHomeMain from '../pages/DarkHomeMain';
 import QuienesSomos from '../pages/quienes_Somos';
 import ServiceMain from '../pages/ServiceMain';
 import ServiceDetailsMain from '../pages/ServiceDetailsMain';
-import ProjectMain from '../pages/ProjectMain';
+// import ProjectMain from '../pages/ProjectMain';
+import Proveedores from '../pages/proveedores';
 import ProjectDetailsMain from '../pages/ProjectDetailsMain';
 import TeamMain from '../pages/TeamMain';
 import TeamDetailsMain from '../pages/TeamDetailsMain';
@@ -32,7 +33,7 @@ const AppNavigation = () => {
         <Route path="/quienes_Somos" element={<QuienesSomos />} />
         <Route path="/services" element={<ServiceMain />} />
         <Route path="/services-details" element={<ServiceDetailsMain />} />
-        <Route path="/projects" element={<ProjectMain />} />
+        <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/project-details" element={<ProjectDetailsMain />} />
         <Route path="/team" element={<TeamMain />} />
         <Route path="/team-details" element={<TeamDetailsMain />} />

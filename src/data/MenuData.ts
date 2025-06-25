@@ -54,8 +54,8 @@ const menu_data: MenuItem[] = [
                 title: "Projects",
                 mega_menus: [
                     {
-                        title: "Projects",
-                        link: "/projects",
+                        title: "Proveedores",
+                        link: "/proveedores",
                     },
                     {
                         title: "Projects Details",
