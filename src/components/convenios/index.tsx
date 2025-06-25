@@ -1,13 +1,5 @@
 import Banner from "./Banner"
-import About from "./About"
 import Service from "./Service"
-import Cta from "./Cta"
-import Project from "./Project"
-import Choose from "./Choose"
-import Team from "./Team"
-import Testimonial from "./Testimonial"
-import Blog from "./Blog"
-import Brand from "./Brand"
 import HeaderThree from "../../layouts/headers/HeaderThree"
 import FooterThree from "../../layouts/footers/FooterThree"
 
@@ -17,15 +9,7 @@ const HomeThree = () => {
          <HeaderThree />
          <main>
             <Banner />
-            {/* <About /> */}
             <Service />
-            {/* <Cta /> */}
-            {/* <Project /> */}
-            {/* <Choose />
-            <Team />
-            <Testimonial style={false} />
-            <Blog />
-            <Brand /> */}
          </main>
          <FooterThree />
       </>
