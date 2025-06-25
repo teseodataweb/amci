@@ -58,12 +58,12 @@ const menu_data: MenuItem[] = [
                         link: "/proveedores",
                     },
                     {
-                        title: "Projects Details",
-                        link: "/project-details",
+                        title: "Socios",
+                        link: "/socios",
                     }
                 ],
             },
-            { link: "/team", title: "Team" },
+            { link: "/convenios", title: "Convenios" },
             { link: "/team-details", title: "Team Details" },
             { link: "/faq", title: "Faq's" },
             { link: "/not-found", title: "Error Page" },
