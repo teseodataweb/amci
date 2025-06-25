@@ -4,7 +4,6 @@ import BreadCrumb from "../common/BreadCrumb"
 import FooterThree from "../../layouts/footers/FooterThree"
 import Choose from "../homes/home-three/Choose"
 import Counter from "../homes/home-one/Counter"
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Service = () => {
    return (
