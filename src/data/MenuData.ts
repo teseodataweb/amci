@@ -71,6 +71,7 @@ const menu_data: MenuItem[] = [
             { link: "/hoteles", title: "Hoteles" },
             { link: "/mnx", title: "MNX" },
             { link: "/convenios_sertificacion", title: "Convenios Certificacion" },
+            { link: "/material_Capasitacion", title: "Material Capasitación" },
         ],
     },
     {
