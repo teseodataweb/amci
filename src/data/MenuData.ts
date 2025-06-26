@@ -70,6 +70,7 @@ const menu_data: MenuItem[] = [
             { link: "/gestion", title: "Gestion" },
             { link: "/hoteles", title: "Hoteles" },
             { link: "/mnx", title: "MNX" },
+            { link: "/convenios_sertificacion", title: "Convenios Certificacion" },
         ],
     },
     {
