@@ -72,6 +72,7 @@ const menu_data: MenuItem[] = [
             { link: "/mnx", title: "MNX" },
             { link: "/convenios_sertificacion", title: "Convenios Certificacion" },
             { link: "/material_Capasitacion", title: "Material Capasitación" },
+            { link: "/pruebas_Concreto", title: "Pruebas Concreto" },
         ],
     },
     {
