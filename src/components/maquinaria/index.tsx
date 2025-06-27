@@ -1,5 +1,5 @@
 import ServiceArea from "./ServiceArea"
-import HeaderThree from "../../layouts/headers/HeaderThree"
+import HeaderOne from "../../layouts/headers/HeaderOne"
 import BreadCrumb from "../common/BreadCrumb"
 import FooterThree from "../../layouts/footers/FooterThree"
 import Choose from "../homes/home-three/Choose"
@@ -8,7 +8,7 @@ import Counter from "../homes/home-one/Counter"
 const Service = () => {
    return (
       <>
-         <HeaderThree />
+         <HeaderOne />
          <main>
             <BreadCrumb sub_title="Maquinaria" title="Maquinaria" />
             <ServiceArea />

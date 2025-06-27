@@ -1,12 +1,12 @@
 import Banner from "./Banner"
 import Service from "./Service"
-import HeaderThree from "../../layouts/headers/HeaderThree"
+import HeaderOne from "../../layouts/headers/HeaderOne"
 import FooterThree from "../../layouts/footers/FooterThree"
 
 const HomeThree = () => {
    return (
       <>
-         <HeaderThree />
+         <HeaderOne />
          <main>
             <Banner />
             <Service />

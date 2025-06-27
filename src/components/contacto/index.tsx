@@ -1,5 +1,5 @@
 import FooterThree from '../../layouts/footers/FooterThree'
-import HeaderThree from '../../layouts/headers/HeaderThree'
+import HeaderOne from "../../layouts/headers/HeaderOne"
 import BreadCrumb from '../common/BreadCrumb'
 import ContactArea from './ContactArea'
 import ContactMap from './ContactMap'
@@ -7,7 +7,7 @@ import ContactMap from './ContactMap'
 const Contact = () => {
    return (
       <>
-         <HeaderThree />
+         <HeaderOne />
          <main>
             <BreadCrumb sub_title='Contacto' title='Contacto' />
             <ContactArea />

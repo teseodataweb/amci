@@ -1,12 +1,12 @@
 import FooterThree from "../../layouts/footers/FooterThree"
-import HeaderThree from "../../layouts/headers/HeaderThree"
+import HeaderOne from "../../layouts/headers/HeaderOne"
 import BreadCrumb from "../common/BreadCrumb"
 import TeamDetailsArea from "./TeamDetailsArea"
 
 const TeamDetails = () => {
   return (
     <>
-      <HeaderThree />
+      <HeaderOne />
       <main>
         <BreadCrumb sub_title="Convenios Certificacion" title="Convenios Certificacion" />
         <TeamDetailsArea />

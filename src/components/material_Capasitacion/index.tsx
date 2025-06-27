@@ -1,12 +1,12 @@
 import FooterThree from "../../layouts/footers/FooterThree"
-import HeaderThree from "../../layouts/headers/HeaderThree"
+import HeaderOne from "../../layouts/headers/HeaderOne"
 import BreadCrumb from "../common/BreadCrumb"
 import FaqArea from "./FaqArea"
 
 const Faq = () => {
   return (
     <>
-      <HeaderThree />
+      <HeaderOne />
       <main>
          <BreadCrumb sub_title="Material Capasitacion" title="Material Capasitacion" />
          <FaqArea />

@@ -1,11 +1,11 @@
 import Choose from "./Choose"
-import HeaderThree from "../../layouts/headers/HeaderThree"
+import HeaderOne from "../../layouts/headers/HeaderOne"
 import FooterThree from "../../layouts/footers/FooterThree"
 
 const HomeThree = () => {
    return (
       <>
-         <HeaderThree />
+         <HeaderOne />
          <main>
             <Choose />
          </main>

@@ -14,7 +14,13 @@ const NavMenu = () => {
     return (
         <ul>
             {menu_data.map((menu) => (
-                <li key={menu.id} className={menu.has_dropdown ? "has-dropdown" : ""}>
+                <li
+                    key={menu.id}
+                    className={[
+                        menu.has_dropdown ? "has-dropdown" : "",
+                        menu.className ? menu.className : ""
+                    ].join(" ").trim()}
+                >
                     <Link to={menu.link} onClick={() => setNavClick(!navClick)}>
                         {menu.title}
                     </Link>

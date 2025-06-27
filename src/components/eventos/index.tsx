@@ -2,12 +2,12 @@ import Banner from "./Banner"
 import About from "./About"
 import Service from "./Service"
 import FooterTwo from "../../layouts/footers/FooterTwo"
-import HeaderTwo from "../../layouts/headers/HeaderTwo"
+import HeaderOne from "../../layouts/headers/HeaderOne"
 
 const HomeTwo = () => {
    return (
       <>
-         <HeaderTwo />
+         <HeaderOne />
          <main>
             <Banner />
             <About />

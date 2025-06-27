@@ -62,7 +62,7 @@ const AppNavigation = () => {
         <Route path="/hoteles" element={<Hoteles />} />
         <Route path="/pruebas_Concreto" element={<Pruebas_Concreto />} />
         <Route path="/mnx" element={<MNX />} />
-        <Route path="/convenios_sertificacion" element={<ConveniosCertificacion />} />
+        <Route path="/convenios_certificacion" element={<ConveniosCertificacion />} />
         <Route path="/material_Capasitacion" element={<Material_Capasitacion />} />
         <Route path="*" element={<ErrorMain />} />
       </Routes>
