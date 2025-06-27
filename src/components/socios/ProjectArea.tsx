@@ -8,20 +8,18 @@ const ProjectArea = () => {
         {/* Superior, título y párrafo */}
         <div className="row">
           <div className="col-12 text-center mb-40">
-            <span className="section-sub-title">Nuestros Aliados</span>
+            <span className="section-sub-title">Red de Socios</span>
             <h2 className="section-title mt-10">
-              Proveedores que impulsan al sector concretero
+              Concreteros que construyen el futuro juntos
             </h2>
             <p className="mb-35">
-              Explora nuestra red de aliados estratégicos: proveedores que
-              comparten nuestra visión de calidad, sostenibilidad e innovación
-              para el concretero independiente.
+              Conoce a las concreteras independientes que forman parte activa de AMCI. Unidos por la calidad, la innovación y la defensa del gremio.
             </p>
           </div>
         </div>
         <div className="row g-4">
           {project_data
-            .filter((items) => items.page === "proveedores")
+            .filter((items) => items.page === "socios")
             .map((item) => (
               <div key={item.id} className="col-xxl-6 col-xl-6 col-lg-6 mb-15">
                 <div className="project-slider-area p-relative">

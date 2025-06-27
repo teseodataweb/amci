@@ -23,7 +23,7 @@ const HeaderThree = () => {
                         <div className="header-left">
                            <div className="header-logo">
                               <Link to="/">
-                                 <img src="/assets/imgs/logo/logo.svg" alt="header logo" />
+                                 <img src="/assets/imgs/logo/logo.webp" alt="header logo" />
                               </Link>
                            </div>
                         </div>

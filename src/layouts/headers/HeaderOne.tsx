@@ -21,7 +21,7 @@ const HeaderOne = () => {
                         <div className="header-left">
                            <div className="header-logo">
                               <Link to="/">
-                                 <img src="/assets/imgs/logo/logo-white.svg" alt="header logo" />
+                                 <img src="/assets/imgs/logo/logo.webp" alt="header logo" />
                               </Link>
                            </div>
                         </div>
