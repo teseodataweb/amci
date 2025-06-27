@@ -71,6 +71,15 @@ const menu_data: MenuItem[] = [
             { link: "/pruebas_Concreto", title: "Pruebas Concreto" },
         ],
     },
+    {
+        id: 5,
+        title: "Blog",
+        link: "https://amciac.org/blog/",
+        has_dropdown: true,
+        sub_menus: [
+            { link: "https://amciac.org/blog/", title: "Blog" },
+        ],
+    },
 ];
 
 export default menu_data;
