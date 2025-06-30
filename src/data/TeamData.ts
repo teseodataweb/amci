@@ -1,79 +1,221 @@
-
 interface DataType {
-   id: number;
-   page: string;
-   thumb: string;
-   name: string;
-   designation: string;
+  id: number;
+  page: string;
+  thumb: string;
+  name: string;
+  designation: string;
+  link?: string; // Nuevo campo opcional para el link
 }
 
 const team_data: DataType[] = [
-   {
-      id: 1,
-      page: "home_3",
-      thumb: "/assets/imgs/team/team-1.jpg",
-      name: "Kristin Watson",
-      designation: "Project Manager"
-   },
-   {
-      id: 2,
-      page: "home_3",
-      thumb: "/assets/imgs/team/team-2.jpg",
-      name: "Annette Black",
-      designation: "Senior QA Engineer"
-   },
-   {
-      id: 3,
-      page: "home_3",
-      thumb: "/assets/imgs/team/team-3.jpg",
-      name: "Ralph Edwards",
-      designation: "Engineer"
-   },
+  {
+    id: 1,
+    page: "home_3",
+    thumb: "/assets/imgs/team/team-1.jpg",
+    name: "Kristin Watson",
+    designation: "Project Manager",
+  },
+  {
+    id: 2,
+    page: "home_3",
+    thumb: "/assets/imgs/team/team-2.jpg",
+    name: "Annette Black",
+    designation: "Senior QA Engineer",
+  },
+  {
+    id: 3,
+    page: "home_3",
+    thumb: "/assets/imgs/team/team-3.jpg",
+    name: "Ralph Edwards",
+    designation: "Engineer",
+  },
 
-   // inner_page
+  // mesa_Directiva
 
-   {
-      id: 1,
-      page: "inner_page",
-      thumb: "/assets/imgs/team/team-1.jpg",
-      name: "Kristin Watson",
-      designation: "Project Manager"
-   },
-   {
-      id: 2,
-      page: "inner_page",
-      thumb: "/assets/imgs/team/team-2.jpg",
-      name: "Annette Black",
-      designation: "Senior QA Engineer"
-   },
-   {
-      id: 3,
-      page: "inner_page",
-      thumb: "/assets/imgs/team/team-3.jpg",
-      name: "Ralph Edwards",
-      designation: "Engineer"
-   },
-   {
-      id: 4,
-      page: "inner_page",
-      thumb: "/assets/imgs/team/team-4.jpg",
-      name: "Albert Flores",
-      designation: "Roof Worker"
-   },
-   {
-      id: 5,
-      page: "inner_page",
-      thumb: "/assets/imgs/team/team-5.jpg",
-      name: "Dianne Russell",
-      designation: "Project Manager"
-   },
-   {
-      id: 6,
-      page: "inner_page",
-      thumb: "/assets/imgs/team/team-6.jpg",
-      name: "Eleanor Pena",
-      designation: "Engineer"
-   },
-]
+  {
+    id: 1,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-1.jpg",
+    name: "Josué Zaragoza Santos",
+    designation: "Project Manager",
+    link: "/josue_Z",
+  },
+  {
+    id: 2,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-2.jpg",
+    name: "Jorge González Garrido",
+    designation: "Senior QA Engineer",
+    link: "/jorge_G",
+  },
+  {
+    id: 3,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-3.jpg",
+    name: "David Marcelo González Serna",
+    designation: "Engineer",
+    link: "/david_M",
+  },
+  {
+    id: 4,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-4.jpg",
+    name: "Ana Esperanza Contreras Yedra",
+    designation: "Roof Worker",
+    link: "/ana_E",
+  },
+  {
+    id: 5,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-5.jpg",
+    name: "Hernán Espinosa Solís",
+    designation: "Project Manager",
+    link: "/hernan_E",
+  },
+  {
+    id: 6,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Enrique Casas Irigoyen",
+    designation: "Engineer",
+    link: "/enrique_C",
+  },
+  {
+    id: 7,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Jimena Muñoz Albarrán",
+    designation: "Engineer",
+    link: "/jimena_M",
+  },
+  {
+    id: 8,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Miguel Leal Gutiérrez",
+    designation: "Engineer",
+    link: "/miguel_L",
+  },
+  {
+    id: 9,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Horacio del Castillo Lafuente",
+    designation: "Engineer",
+    link: "/horacio_C",
+  },
+  {
+    id: 10,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Gilberto Duarte",
+    designation: "Engineer",
+    link: "/gilberto_D",
+  },
+  {
+    id: 11,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Mauro González Jr.",
+    designation: "Engineer",
+    link: "/mauro_G",
+  },
+  {
+    id: 12,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Iván Ruibal Flores",
+    designation: "Engineer",
+    link: "/ivan_R",
+  },
+  {
+    id: 13,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Adrián Maynes García",
+    designation: "Engineer",
+    link: "/adrian_M",
+  },
+  {
+    id: 14,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Miguel Ángel Ramírez Álvarez",
+    designation: "Engineer",
+    link: "/miguel_A",
+  },
+  {
+    id: 15,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Diego Erasmo Pinilla Samudio",
+    designation: "Engineer",
+    link: "/diego_E",
+  },
+  {
+    id: 16,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Eduardo Valencia",
+    designation: "Engineer",
+    link: "/eduardo_V",
+  },
+  {
+    id: 17,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Miguel Canto",
+    designation: "Engineer",
+    link: "/miguel_C",
+  },
+  {
+    id: 18,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Fernando Luna Rodríguez",
+    designation: "Engineer",
+    link: "/fernando_L",
+  },
+  {
+    id: 19,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Erik Francisco Arévalo Gil",
+    designation: "Engineer",
+    link: "/erik_F",
+  },
+  {
+    id: 20,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Emmanuel Guillermo García Villarreal",
+    designation: "Engineer",
+    link: "/emmanuel_G",
+  },
+  {
+    id: 21,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Darío Martínez Álvarez",
+    designation: "Engineer",
+    link: "/dario_M",
+  },
+  {
+    id: 22,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Ricardo Pepi Sandoval",
+    designation: "Engineer",
+    link: "/ricardo_P",
+  },
+  {
+    id: 23,
+    page: "mesa_Directiva",
+    thumb: "/assets/imgs/team/team-6.jpg",
+    name: "Ramiro José Páez Cruz",
+    designation: "Engineer",
+    link: "/ramiro_J",
+  },
+];
 
 export default team_data;

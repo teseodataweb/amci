@@ -29,6 +29,7 @@ const menu_data: MenuItem[] = [
     sub_menus: [
       { link: "/quienes_Somos", title: "Quienes somos" },
       { link: "/eventos", title: "Eventos" },
+      { link: "/mesa_Directiva", title: "Mesa directiva" },
       { link: "/software", title: "Software" },
     ],
   },
