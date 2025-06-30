@@ -7,6 +7,7 @@ interface DataType {
 const BreadCrumb = ({ sub_title, title }: DataType) => {
    return (
       <div className="breadcrumb__area theme-bg-1 p-relative pt-160 pb-160">
+         <div className="top-padding"></div>
          <div className="breadcrumb__thumb" style={{ backgroundImage: `url(/assets/imgs/resources/page-title-bg-1.png)` }} ></div>
          <div className="breadcrumb__thumb_2" style={{ backgroundImage: `url(/assets/imgs/resources/page-title-bg-2.png)` }} ></div>
          <div className="breadcrumb__thumb_3" style={{ backgroundImage: `url(/assets/imgs/shapes/shape-53.png)` }} ></div>

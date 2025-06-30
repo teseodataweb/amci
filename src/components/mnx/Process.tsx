@@ -33,6 +33,7 @@ interface PropType {
 const Process = ({ style }: PropType) => {
    return (
       <section className={`work-process-section section-space p-relative ${style ? "is-dark" : ""}`} style={{ backgroundImage: `url(${style ? "/assets/imgs/shapes/shape-51.png" : "/assets/imgs/bg/process-bg.png"})` }}>
+         <div className="top-padding"></div>
          <div className="shape-1" style={{ backgroundImage: `url(${style ? "/assets/imgs/shapes/shape-52.png" : "/assets/imgs/bg/line.png"})` }}></div>
          <div className="small-container">
             <div className="title-box text-center mb-60 wow fadeInLeft" data-wow-delay=".5s">

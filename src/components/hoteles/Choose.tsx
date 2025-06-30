@@ -60,6 +60,7 @@ const { sub_title, title, feature_list } = choose_data;
 const Choose = () => {
   return (
     <section className="choose-section bg-color-1 section-space-top p-relative">
+      <div className="top-padding"></div>
       <div
         className="bg-image"
         style={{ backgroundImage: `url(/assets/imgs/bg/choose-bg.png)` }}

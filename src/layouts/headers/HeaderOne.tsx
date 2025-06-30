@@ -15,7 +15,7 @@ const HeaderOne = () => {
           id="header-sticky"
           className={`header-area header-style-two ${sticky ? "sticky" : ""}`}
         >
-          <div className="large-container">
+          <div className="large-container padding-top">
             <div className="mega-menu-wrapper">
               <div className="header-main">
                 <div className="header-left">

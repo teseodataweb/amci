@@ -31,6 +31,7 @@ import MNX from '../pages/mnx';
 import ConveniosCertificacion from '../pages/convenios_certificacion';
 import Material_Capasitacion from '../pages/material_Capasitacion';
 import Pruebas_Concreto from '../pages/pruebas_Concreto';
+import Financiamiento from '../pages/financiamiento';
 import ErrorMain from '../pages/ErrorMain';
 
 const AppNavigation = () => {
@@ -64,6 +65,7 @@ const AppNavigation = () => {
         <Route path="/mnx" element={<MNX />} />
         <Route path="/convenios_certificacion" element={<ConveniosCertificacion />} />
         <Route path="/material_Capasitacion" element={<Material_Capasitacion />} />
+        <Route path="/financiamiento" element={<Financiamiento />} />
         <Route path="*" element={<ErrorMain />} />
       </Routes>
     </Router>
