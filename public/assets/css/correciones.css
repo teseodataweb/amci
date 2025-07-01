@@ -52,3 +52,39 @@
 }
 
 /* Fin Colores */
+
+/* Nuevos estilos */
+
+.team-filter-btn {
+  margin: 0 8px;
+  padding: 10px 22px;
+  background: #fff;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.team-filter-btn.active,
+.team-filter-btn:hover {
+  background: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .team-filter-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 18px;
+    font-size: 2rem;
+    padding: 12px 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
+/* Fin Nuevos estilos */

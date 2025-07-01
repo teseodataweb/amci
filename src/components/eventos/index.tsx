@@ -1,7 +1,7 @@
 import Banner from "./Banner"
 import About from "./About"
 import Service from "./Service"
-import FooterTwo from "../../layouts/footers/FooterTwo"
+import FooterThree from "../../layouts/footers/FooterThree"
 import HeaderOne from "../../layouts/headers/HeaderOne"
 
 const HomeTwo = () => {
@@ -13,7 +13,7 @@ const HomeTwo = () => {
             <About />
             <Service />
          </main>
-         <FooterTwo />
+         <FooterThree />
       </>
    )
 }

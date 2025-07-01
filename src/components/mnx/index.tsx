@@ -1,7 +1,7 @@
 import Service from "./Service"
 import Process from "./Process"
 import HeaderOne from "../../layouts/headers/HeaderOne"
-import FooterOne from "../../layouts/footers/FooterOne"
+import FooterThree from "../../layouts/footers/FooterThree"
 
 const HomeOne = () => {
   return (
@@ -11,7 +11,7 @@ const HomeOne = () => {
         <Process style={false} />
         <Service style={false} />
       </main>
-      <FooterOne />
+      <FooterThree />
     </>
   )
 }

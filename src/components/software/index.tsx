@@ -1,6 +1,6 @@
 import Banner from "./Banner"
 import ChooseArea from "./ChooseArea"
-import FooterTwo from "../../layouts/footers/FooterTwo"
+import FooterThree from "../../layouts/footers/FooterThree"
 import HeaderOne from "../../layouts/headers/HeaderOne"
 
 const HomeTwo = () => {
@@ -11,7 +11,7 @@ const HomeTwo = () => {
             <Banner />
             <ChooseArea />
          </main>
-         <FooterTwo />
+         <FooterThree />
       </>
    )
 }

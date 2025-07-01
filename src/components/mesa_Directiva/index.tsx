@@ -8,7 +8,7 @@ const Team = () => {
       <>
          <HeaderOne />
          <main>
-            <BreadCrumb sub_title="Ramiro José Páez Cruz" title="Ramiro José Páez Cruz" />
+            <BreadCrumb sub_title="Mesa Directiva" title="Mesa Directiva" />
             <TeamArea />
          </main>
          <FooterThree />

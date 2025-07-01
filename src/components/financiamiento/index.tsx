@@ -1,7 +1,7 @@
 import About from "./About"
 import Features from "./Features"
 import HeaderOne from "../../layouts/headers/HeaderOne"
-import FooterOne from "../../layouts/footers/FooterOne"
+import FooterThree from "../../layouts/footers/FooterThree"
 
 const DarkHome = () => {
   return (
@@ -11,7 +11,7 @@ const DarkHome = () => {
         <About style={true} />
         <Features style={true} />
       </main>
-      <FooterOne />
+      <FooterThree />
     </>
   )
 }

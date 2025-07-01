@@ -73,8 +73,7 @@ const menu_data: MenuItem[] = [
     id: 5,
     title: "Blog",
     link: "https://amciac.org/blog/",
-    has_dropdown: true,
-    sub_menus: [{ link: "https://amciac.org/blog/", title: "Blog" }],
+    has_dropdown: false,
   },
   {
     id: 6,
