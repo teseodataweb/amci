@@ -12,7 +12,7 @@ const counter_data: DataType[] = [
    {
       id: 1,
       icon: "icon-home-1",
-      number: 280,
+      number: 128,
       title: "concreteras afiliadas",
       number_text: "+"
    },

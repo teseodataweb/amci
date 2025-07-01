@@ -31,7 +31,7 @@ const testi_data: DataType[] = [
       avatar: "/assets/imgs/resources/testimonials-2.png",
       name: "Iván Morales",
       designation: "Afiliado desde 2021 – Tijuana",
-      desc: "“ Con AMCI me enteré de cosas que ni sabía que afectaban a mi negocio. Desde precios regionales hasta temas fiscales. A veces mandan mucha info, pero siempre hay algo que te sirve ”"
+      desc: "“ Con AMCI me enteré de cosas que ni sabía que afectaban a mi negocio. Desde precios regionales hasta temas fiscales.”"
    },
 ];
 
