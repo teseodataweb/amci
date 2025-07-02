@@ -17,18 +17,10 @@ const setting = {
       nextEl: ".service-active-2-button-next",
    },
    breakpoints: {
-      '1400': {
-         slidesPerView: 4,
-      },
-      '1200': {
-         slidesPerView: 3,
-      },
-      '768': {
-         slidesPerView: 2,
-      },
-      '0': {
-         slidesPerView: 1,
-      },
+      '1400': { slidesPerView: 4 },
+      '1200': { slidesPerView: 3 },
+      '768': { slidesPerView: 2 },
+      '0': { slidesPerView: 1 },
    },
 };
 
@@ -55,19 +47,49 @@ const Service = () => {
                {service_data.filter((items) => items.page === "eventos").map((item) => (
                   <SwiperSlide key={item.id} className="swiper-slide">
                      <div className="service-3-box-area p-relative">
-                        <Link className="image w-img" to="/service-details">
-                           <img src={item.thumb} alt="" />
-                        </Link>
+                        {item.link ? (
+                           <a className="image w-img" href={item.link} target="_blank" rel="noopener noreferrer">
+                              <img src={item.thumb} alt="" />
+                           </a>
+                        ) : (
+                           <Link className="image w-img" to="#">
+                              <img src={item.thumb} alt="" />
+                           </Link>
+                        )}
                         <div className="inner text-center">
                            <div className="content-box">
                               <div className="icon-box">
-                                 <i className={item.icon}></i>
+                                 {item.link ? (
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                       <i className={item.icon}></i>
+                                    </a>
+                                 ) : (
+                                    <Link to="#">
+                                       <i className={item.icon}></i>
+                                    </Link>
+                                 )}
                               </div>
-                              <h4><Link to="/service-details">{item.title}</Link></h4>
+                              <h4>
+                                 {item.link ? (
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                       {item.title}
+                                    </a>
+                                 ) : (
+                                    <Link to="#">{item.title}</Link>
+                                 )}
+                              </h4>
                               <p className="mb-25">{item.desc}</p>
                            </div>
                            <div className="btn-area">
-                              <Link to="/service-details">services details <i className="icon-arrow-right-double"></i></Link>
+                              {item.link ? (
+                                 <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                    Mas detalles <i className="icon-arrow-right-double"></i>
+                                 </a>
+                              ) : (
+                                 <Link to="#">
+                                    Mas detalles <i className="icon-arrow-right-double"></i>
+                                 </Link>
+                              )}
                            </div>
                         </div>
                      </div>

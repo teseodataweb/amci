@@ -87,6 +87,20 @@
   }
 }
 
+/* Tamaño uniforme para las tarjetas de eventos */
+.service-3-box-area {
+  min-height: 600px; /* Ajusta este valor según tu diseño */
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 100%;
+}
 
+.service-3-box-area .inner {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /* Fin Nuevos estilos */

@@ -5,6 +5,7 @@ interface DataType {
   icon: string;
   title: string;
   desc: string;
+  link?: string; // Optional link for external pages
 }
 
 const service_data: DataType[] = [
@@ -12,7 +13,7 @@ const service_data: DataType[] = [
     id: 1,
     page: "eventos",
     thumb: "/assets/imgs/service/service-4.jpg",
-    icon: "icon-roof",
+    icon: "fas fa-vials", // Laboratorio
     title: "Taller NMX-EC-17025 para laboratorios",
     desc: "Capacitación técnica sobre implementación de normas de calidad para ensayos de concreto.",
   },
@@ -20,7 +21,7 @@ const service_data: DataType[] = [
     id: 2,
     page: "eventos",
     thumb: "/assets/imgs/service/service-5.jpg",
-    icon: "icon-roof-8",
+    icon: "fas fa-industry", // Planta/Certificación
     title: "Certificación nacional para plantas de concreto",
     desc: "Proceso de evaluación y auditoría que valida el cumplimiento técnico-operativo en planta.",
   },
@@ -28,7 +29,7 @@ const service_data: DataType[] = [
     id: 3,
     page: "eventos",
     thumb: "/assets/imgs/service/service-6.jpg",
-    icon: "icon-roof-2",
+    icon: "fas fa-hard-hat", // Seguridad
     title: "Curso de seguridad para operadores de bomba pluma",
     desc: "Entrenamiento especializado en operación segura y normativa de maquinaria de bombeo.",
   },
@@ -36,7 +37,7 @@ const service_data: DataType[] = [
     id: 4,
     page: "eventos",
     thumb: "/assets/imgs/service/service-7.jpg",
-    icon: "icon-roof-3",
+    icon: "fas fa-handshake", // Convenios
     title: "Sesión informativa sobre convenios",
     desc: "Conoce los beneficios de las alianzas con IMCYC, Constructo y otras entidades para certificación.",
   },
@@ -44,9 +45,49 @@ const service_data: DataType[] = [
     id: 5,
     page: "eventos",
     thumb: "/assets/imgs/service/service-6.jpg",
-    icon: "icon-roof-8",
+    icon: "fas fa-file-contract", // Especificaciones/documentos
     title: "Capacitación en especificaciones del concreto premezclado",
     desc: "Curso enfocado en los criterios técnicos, normativos y documentales de la norma NMX-C-155.",
+  },
+  {
+    id: 6,
+    page: "eventos",
+    thumb: "/assets/imgs/service/service-6.jpg",
+    icon: "fas fa-chart-bar", // Estadística/Calidad
+    title: "Control de Calidad y Control Estadístico",
+    desc: "Dos cursos presenciales impartidos en Puebla para profundizar en patologías del concreto y control estadístico en planta. Incluye promoción para socios.",
+  },
+  {
+    id: 7,
+    page: "eventos",
+    thumb: "/assets/imgs/service/service-6.jpg",
+    icon: "fas fa-lightbulb", // Innovación/Futuro
+    title: "Impulsando el Futuro del Concreto",
+    desc: "Encuentro técnico en Guadalajara para debatir el futuro del sector concreto independiente. Espacios de networking y visión estratégica.",
+  },
+  {
+    id: 8,
+    page: "eventos",
+    thumb: "/assets/imgs/service/service-6.jpg",
+    icon: "fas fa-users", // Reunión/Networking
+    title: "Reunión de Concreteros Zona Bajío 2025",
+    desc: "Encuentro regional en Aguascalientes para concreteros del Bajío. Intercambio de experiencias, avances técnicos y alianzas comerciales.",
+  },
+  {
+    id: 9,
+    page: "eventos",
+    thumb: "/assets/imgs/service/service-6.jpg",
+    icon: "fas fa-gavel", // Asamblea/Decisiones
+    title: "Asamblea Nacional AMCI 2025",
+    desc: "Reunión institucional en CDMX para presentar avances, renovar compromisos y tomar decisiones estratégicas con todos los socios AMCI.",
+  },
+  {
+    id: 10,
+    page: "eventos",
+    thumb: "/assets/imgs/service/service-6.jpg",
+    icon: "fas fa-globe-americas", // Internacional/Expo
+    title: "CONEXPO-CON/AGG 2026 – Delegación AMCI",
+    desc: "Asiste con AMCI a la mayor feria de construcción de América. Más de 2,000 expositores y lanzamientos de tecnología en concreto.",
   },
 
   // Maquinaria
