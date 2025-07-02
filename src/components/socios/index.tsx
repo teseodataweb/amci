@@ -8,7 +8,7 @@ const Project = () => {
       <>
          <HeaderOne />
          <main>
-            <BreadCrumb sub_title="Proveedores" title="Proveedores" />
+            <BreadCrumb sub_title="Socios" title="Socios" />
             <ProjectArea />
          </main>
          <FooterThree />

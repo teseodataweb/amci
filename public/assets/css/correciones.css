@@ -87,6 +87,98 @@
   }
 }
 
+/* Menú desplegable de divisiones */
+.divisiones-dropdown {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  min-width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #0002;
+  z-index: 10;
+  padding: 0;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.divisiones-dropdown .team-filter-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  border-bottom: 2px solid #007bff; /* Línea azul para todos */
+  margin: 0;
+}
+
+/* Dirección de socio: salto de línea y mejor legibilidad */
+.socio-direccion {
+  font-size: 15px;
+  color: #007bff;
+  margin: 8px 0 0 0;
+  word-break: break-word;
+  white-space: pre-line;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .socio-direccion {
+    font-size: 1rem;
+    padding-right: 0;
+    word-break: break-word;
+    white-space: normal;
+    line-height: 1.5;
+    display: block;
+  }
+}
+
+/* Ajuste de tamaño y espaciado del título del socio */
+.project-slider-area .title-area h5 {
+  font-size: 1.5rem;
+  margin: 8px 0 0 0;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .project-slider-area .title-area h5 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .project-slider-area .title-area h6 {
+    font-size: 1rem;
+    font-weight: 500;
+
+    .socio-title-link {
+      display: none !important;
+    }
+    .socio-title-plain {
+      display: inline !important;
+    }
+    .socio-title-link {
+      display: none !important;
+    }
+    .socio-title-plain {
+      display: inline !important;
+    }
+  }
+
+  @media (min-width: 601px) {
+    .socio-title-link {
+      display: inline !important;
+    }
+    .socio-title-plain {
+      display: none !important;
+    }
+    .socio-title-link {
+      display: inline !important;
+    }
+    .socio-title-plain {
+      display: none !important;
+    }
+  }
+}
+
 /* Tamaño uniforme para las tarjetas de eventos */
 .service-3-box-area {
   min-height: 600px; /* Ajusta este valor según tu diseño */

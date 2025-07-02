@@ -5,7 +5,9 @@ interface DataType {
   thumb2?: string;
   sub_title: string;
   title: string;
+  direccion?: string;
   link?: string;
+  categoria?: number[];
 }
 
 const project_data: DataType[] = [
@@ -305,50 +307,6 @@ const project_data: DataType[] = [
     link: "/assets/pdf/REVISTA_110.pdf",
   },
 
-  // home_2
-  {
-    id: 1,
-    page: "home_2",
-    thumb: "/assets/imgs/project/project-1.jpg",
-    sub_title: "Fixing roof",
-    title: "Roof renovation",
-  },
-  {
-    id: 2,
-    page: "home_2",
-    thumb: "/assets/imgs/project/project-2.jpg",
-    sub_title: "Fixing roof",
-    title: "Roof renovation",
-  },
-  {
-    id: 3,
-    page: "home_2",
-    thumb: "/assets/imgs/project/project-3.jpg",
-    sub_title: "Fixing roof",
-    title: "Roof renovation",
-  },
-  {
-    id: 4,
-    page: "home_2",
-    thumb: "/assets/imgs/project/project-4.jpg",
-    sub_title: "Fixing roof",
-    title: "Roof renovation",
-  },
-  {
-    id: 5,
-    page: "home_2",
-    thumb: "/assets/imgs/project/project-3.jpg",
-    sub_title: "Fixing roof",
-    title: "Roof renovation",
-  },
-  {
-    id: 6,
-    page: "home_2",
-    thumb: "/assets/imgs/project/project-3.jpg",
-    sub_title: "Fixing roof",
-    title: "Roof renovation",
-  },
-
   // Proveedores
   {
     id: 1,
@@ -513,13 +471,15 @@ const project_data: DataType[] = [
 
   // socios
 
-  {
+    {
     id: 1,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "31 7121 7705",
     title: "CEMENCOSTA",
+    direccion: "Autlán el Grullo km 7.5, Autlán de Navarro, Jal.",
     link: "https://www.facebook.com/p/CemenCosta-100079312878113/",
+    categoria: [3],
   },
   {
     id: 2,
@@ -527,7 +487,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "81 8852 3777",
     title: "CONCRETO CLÁSICO, S.A. DE C.V.",
+    direccion: "Rafael Verger 1899, Obispado, Monterrey, N.L.",
     link: "https://clasicoconcreto.com.mx/",
+    categoria: [2],
   },
   {
     id: 3,
@@ -535,7 +497,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "993 254 9934",
     title: "CONCRETEV, S.A. DE C.V.",
+    direccion: "Perif. Carlos Pellicer S/N, Villahermosa, Tab.",
     link: "https://concretev.com/",
+    categoria: [6],
   },
   {
     id: 4,
@@ -543,7 +507,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "444 799 27 26",
     title: "CONCRETO CÚBICO DEL CENTRO, S.A. DE C.V.",
+    direccion: "Blvd. Rocha Cordero 1905, Tierra Blanca, SLP.",
     link: "https://concretocubico.com/",
+    categoria: [4],
   },
   {
     id: 5,
@@ -551,7 +517,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "622 115 0084",
     title: "CONCRETIZA",
+    direccion: "Blvd. Tetakawi Km 0.5, Sonora.",
     link: "https://concretizas.com/contacto.html",
+    categoria: [1],
   },
   {
     id: 6,
@@ -559,7 +527,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "481 8158 8500",
     title: "CONCRETOS AVE S.A. DE C.V.",
+    direccion: "Camino a las Pedreras, Escobedo, N.L.",
     link: "https://www.concretosave.com/",
+    categoria: [2],
   },
   {
     id: 7,
@@ -567,7 +537,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "722 875 0108",
     title: "CONCRETOS COLOSOS",
+    direccion: "Valle de Bravo, Edo. de México.",
     link: "https://www.facebook.com/Colososconcretos/?locale=es_LA",
+    categoria: [5],
   },
   {
     id: 8,
@@ -575,47 +547,59 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "81 8073 8073",
     title: "CONCRETOS LA SILLA, S.A. DE C.V.",
+    direccion: "Calz. San Pedro 801, Garza García, N.L.",
     link: "https://concremex.com/concremex/",
+    categoria: [2],
   },
   {
     id: 9,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "81 1344 0101",
-    title: "CONCRETOS MAGNO S.A. de C.V.",
+    title: "CONCRETOS MAGNO, S.A. de C.V.",
+    direccion: "Insurgentes 45B, Villas de Escobedo, N.L.",
     link: "https://magnoconcretos.com/",
+    categoria: [2],
   },
   {
     id: 10,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "55 2065 0911",
-    title: "CONCRETOS PILARES S.A. de C.V.",
+    title: "CONCRETOS PILARES, S.A. de C.V.",
+    direccion: "Cracovia 72, San Ángel, CDMX.",
     link: "https://concretospilares.com/",
+    categoria: [5],
   },
   {
     id: 11,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "998 209 3171",
-    title: "CONCRETOS RICASA CANCÚN S.A. DE C.V.",
+    title: "CONCRETOS RICASA CANCÚN, S.A. DE C.V.",
+    direccion: "SM 117, Benito Juárez, Q. Roo.",
     link: "https://concretosricasa-abc.mx/",
+    categoria: [6],
   },
   {
     id: 12,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "81 8351 5470",
-    title: "CONCRETOS TÉCNICOS DE MÉXICO S.A. DE C.V.",
+    title: "CONCRETOS TÉCNICOS DE MÉXICO, S.A. DE C.V.",
+    direccion: "M. Doblado 3713, Col. del Norte, Monterrey, N.L.",
     link: "https://www.concretostecnicos.mx/",
+    categoria: [2],
   },
   {
     id: 13,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "81 8336 1111",
-    title: "CONCRETOS TEPEYAC,S.A. DE C.V.",
+    title: "CONCRETOS TEPEYAC, S.A. DE C.V.",
+    direccion: "1° de Mayo 200, Sta. Catarina, N.L.",
     link: "https://tepeyacconcretosconcreto-web.miadn.mx/",
+    categoria: [2],
   },
   {
     id: 14,
@@ -623,15 +607,19 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "717 132 2714",
     title: "CORIPASA CONCRETOS",
+    direccion: "San Antonio la Isla, Edo. de México.",
     link: "https://www.facebook.com/people/Concretos-Coripasa/100090939304140/",
+    categoria: [5],
   },
   {
     id: 15,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "81 8190 7403",
-    title: "DURO CONCRETOS S.A. de C.V.",
+    title: "DURO CONCRETOS, S.A. de C.V.",
+    direccion: "Carr. a Zacatecas 307, Pesquería, N.L.",
     link: "https://duroconcretos.com/",
+    categoria: [2],
   },
   {
     id: 16,
@@ -639,7 +627,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "442 383 6879",
     title: "GSA CONCRETOS",
+    direccion: "Europark 2, El Marqués, Qro.",
     link: "https://www.grupo-gsa.com/about.html",
+    categoria: [4],
   },
   {
     id: 17,
@@ -647,7 +637,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "322 688 76 63",
     title: "HAICO SOLUCIONES EN CONCRETO",
+    direccion: "Amado Nervo 50, Jarretaderas, Nayarit.",
     link: "https://haico.mx/",
+    categoria: [3]
   },
   {
     id: 18,
@@ -655,7 +647,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "826 123 67 14",
     title: "MTP CONCRETOS",
+    direccion: "Carr. Allende-Cadereyta km 4.5, Allende, N.L.",
     link: "https://www.concretosmtp.com.mx/",
+    categoria: [2],
   },
   {
     id: 19,
@@ -663,7 +657,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "229 921 0101",
     title: "PRECONCRETO DE VERACRUZ, S.A. DE C.V.",
+    direccion: "Ejército Mexicano 2181, Veracruz, Ver.",
     link: "http://preconcretoveracruz.com/",
+    categoria: [6],
   },
   {
     id: 20,
@@ -671,7 +667,9 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "477 830 1646",
     title: "SERVICASA CONCRETOS",
+    direccion: "Carr. León-San Fco. del Rincón KM 13, Gto.",
     link: "https://servicasa.mx/",
+    categoria: [4],
   },
   {
     id: 21,
@@ -679,15 +677,19 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "656 843 4583",
     title: "TRIAXIAL PREMEZCLADOS",
+    direccion: "Abraham Lincoln 1126, Cd. Juárez, Chih.",
     link: "https://www.triaxial.com.mx/",
+    categoria: [7],
   },
   {
     id: 22,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "833 226 50 09",
-    title: "TRITURADOS Y PREMEZCLADOS DE ALTAMIRA SA DE CV",
+    title: "TRITURADOS Y PREMEZCLADOS DE ALTAMIRA, SA DE CV",
+    direccion: "Av. de la Industria 1150, Altamira, Tamps.",
     link: "https://www.tpatriturados.com/",
+    categoria: [8],
   },
   {
     id: 23,
@@ -695,15 +697,19 @@ const project_data: DataType[] = [
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "771 747 7372",
     title: "URBANIZACIONES NASA S.A. DE C.V.",
+    direccion: "",
     link: "https://www.facebook.com/people/Urbanizaciones-NASA/100094117501478/?_rdr",
+    categoria: [5],
   },
   {
     id: 24,
     page: "socios",
     thumb: "/assets/imgs/project/project-1.jpg",
     sub_title: "81 2023 6094",
-    title: "VA CONCRETOS S.A. de C.V.",
+    title: "VA CONCRETOS, S.A. de C.V.",
+    direccion: "Aaron Saenz Garza 18-B, Santa Maria, Monterrey, N.L.",
     link: "https://vaconcretos.com/",
+    categoria: [2],
   },
 
   //certificaciones

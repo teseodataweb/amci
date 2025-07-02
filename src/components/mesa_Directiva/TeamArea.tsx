@@ -78,6 +78,17 @@ const TeamArea = () => {
   return (
     <section className="team-section p-relative section-space">
       <div className="small-container">
+        <div className="row">
+          <div className="col-12 text-center mb-40">
+            <span className="section-sub-title">Liderazgo AMCI</span>
+            <h2 className="section-title mt-10">
+              Comprometidos con el futuro del concreto
+            </h2>
+            <p className="mb-35">
+              Nuestra mesa directiva está conformada por profesionales del concreto que representan a empresas independientes en todo el país. Su visión, experiencia y compromiso impulsan las decisiones estratégicas que fortalecen al gremio, promueven la innovación técnica y garantizan el crecimiento sostenible del sector.
+            </p>
+          </div>
+        </div>
         {/* Botones de filtro */}
         <div style={{ marginBottom: 24, textAlign: "center" }}>
           {categories.map((cat) => (
