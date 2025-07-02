@@ -54,7 +54,6 @@ const menu_data: MenuItem[] = [
       { link: "/certificaciones", title: "Certificaciones" },
       { link: "/maquinaria", title: "Maquinaria" },
       { link: "/gestion", title: "Gestion" },
-      { link: "/hoteles", title: "Hoteles" },
       { link: "/financiamiento", title: "Financiamiento" },
     ],
   },

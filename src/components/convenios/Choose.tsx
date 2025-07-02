@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import React from "react";
 
 interface DataType {
@@ -13,44 +12,45 @@ interface DataType {
 }
 
 const choose_data: DataType = {
-  sub_title: "Red de Convenios",
-  title: "Hoteles aliados para concretar con comodidad",
+  sub_title: "City Express | Convenio nacional",
+  title:
+    "Hospédate con beneficios exclusivos para socios AMCI en más de 150 destinos.",
   feature_list: [
     {
       id: 1,
-      icon: "fas fa-hotel", // Hotel Camino Real
-      title: "Hotel Camino Real",
-      desc: "Convenio con tarifa preferencial en habitaciones estándar y ejecutivas en múltiples ciudades.",
+      icon: "fas fa-key",
+      title: "Socios activos",
+      desc: "Convenio disponible únicamente para miembros vigentes de AMCI.",
     },
     {
       id: 2,
-      icon: "fas fa-briefcase", // Fiesta Inn Business Class
-      title: "Fiesta Inn Business Class",
-      desc: "Descuento exclusivo para concreteros afiliados en viajes de trabajo. Incluye desayuno y wifi.",
+      icon: "fas fa-city",
+      title: "Cobertura nacional",
+      desc: "Aplica en más de 150 hoteles de la cadena City Express en ciudades clave e industriales.",
     },
     {
       id: 3,
-      icon: "fas fa-city", // City Express Plus
-      title: "City Express Plus",
-      desc: "Tarifas especiales y facturación flexible para concreteras registradas en eventos AMCI.",
+      icon: "fas fa-calendar-alt",
+      title: "Registro semestral",
+      desc: "El número de convenio se actualiza cada 6 meses y es indispensable para reservar.",
     },
     {
       id: 4,
-      icon: "fas fa-star", // Marriott Reforma CDMX
-      title: "Marriott Reforma CDMX",
-      desc: "Hospedaje premium con beneficios para afiliados durante ferias o encuentros del sector.",
+      icon: "fas fa-file-invoice",
+      title: "Facturación preferente",
+      desc: "Accede a tarifas corporativas con facturación simplificada para viajes de trabajo o eventos.",
     },
     {
       id: 5,
-      icon: "fas fa-map-marker-alt", // Hotel Holiday Inn Express
-      title: "Hotel Holiday Inn Express",
-      desc: "Tarifas corporativas negociadas y ubicación clave en corredores industriales.",
+      icon: "fas fa-phone",
+      title: "Solicita por teléfono",
+      desc: "Marca al (81) 8399 0066 para obtener el número de convenio y detalles del alta.",
     },
     {
       id: 6,
-      icon: "fas fa-tags", // NH Collection Guadalajara
-      title: "NH Collection Guadalajara",
-      desc: "Precio reducido por convenio para participantes de Constructo y otras ferias técnicas.",
+      icon: "fas fa-envelope",
+      title: "Solicita por correo",
+      desc: "También puedes escribir a: info@amciac.org para tramitar tu acceso.",
     },
   ],
 };
@@ -90,7 +90,19 @@ const Choose = () => {
                   </div>
                   <div className="content">
                     <h5>
-                      <Link to="/services">{item.title}</Link>
+                      {item.icon === "fas fa-phone" ? (
+                        <a
+                          href="https://wa.me/528183990066"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {item.title}
+                        </a>
+                      ) : item.icon === "fas fa-envelope" ? (
+                        <a href="https://mail.google.com/mail/?view=cm&to=info@amciac.org" target="_blank">{item.title}</a>
+                      ) : (
+                        item.title
+                      )}
                     </h5>
                     <p>{item.desc}</p>
                   </div>
