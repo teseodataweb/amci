@@ -148,34 +148,22 @@
   .project-slider-area .title-area h6 {
     font-size: 1rem;
     font-weight: 500;
-
-    .socio-title-link {
-      display: none !important;
-    }
-    .socio-title-plain {
-      display: inline !important;
-    }
-    .socio-title-link {
-      display: none !important;
-    }
-    .socio-title-plain {
-      display: inline !important;
-    }
   }
 
-  @media (min-width: 601px) {
-    .socio-title-link {
-      display: inline !important;
-    }
-    .socio-title-plain {
-      display: none !important;
-    }
-    .socio-title-link {
-      display: inline !important;
-    }
-    .socio-title-plain {
-      display: none !important;
-    }
+  .socio-title-link {
+    display: none !important;
+  }
+  .socio-title-plain {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 601px) {
+  .socio-title-link {
+    display: inline !important;
+  }
+  .socio-title-plain {
+    display: none !important;
   }
 }
 
