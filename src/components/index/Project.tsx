@@ -60,11 +60,40 @@ const Project = ({ style }: PropType) => {
                         <div className="content">
                            <div className="inner-box">
                               <span>{item.sub_title}</span>
-                              <h5><Link to="/projects">{item.title}</Link></h5>
+                              <h5>
+                                 {item.link ? (
+                                    <a
+                                       href={item.link}
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       style={{ textDecoration: "underline" }}
+                                    >
+                                       {item.title}
+                                    </a>
+                                 ) : (
+                                    <a
+                                       href="#"
+                                       style={{ textDecoration: "underline" }}
+                                    >
+                                       {item.title}
+                                    </a>
+                                 )}
+                              </h5>
                            </div>
-                           <Link className="icon-1" to="/projects">
-                              <i className="icon-arrow-up"></i>
-                           </Link>
+                           {item.link ? (
+                              <a
+                                 className="icon-1"
+                                 href={item.link}
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                              >
+                                 <i className="icon-arrow-up"></i>
+                              </a>
+                           ) : (
+                              <a className="icon-1" href="#">
+                                 <i className="icon-arrow-up"></i>
+                              </a>
+                           )}
                         </div>
                      </div>
                   </SwiperSlide>
