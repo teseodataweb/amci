@@ -18,19 +18,19 @@ interface DataType {
 const about_data: DataType = {
    sub_title: "Sobre AMCI",
    title: "Impulsamos la Fuerza del Concreto Independiente",
-   desc: "Desde 2003 representamos a concreteros independientes en todo México. Conectamos, capacitamos y fortalecemos al gremio con una visión colaborativa, sostenible y técnica.",
+   desc: "Desde 2003 representamos a concreteros independientes en todo México. Fortalecemos el gremio a través de alianzas estratégicas, representación gremial activa y formación continua. Promovemos la profesionalización mediante certificaciones, convenios con el IMCYC y programas técnicos que impulsan la sostenibilidad, la calidad y la tecnología en la industria del concreto.",
    feature_list: [
       {
          id: 1,
          icon: "icon-roof",
-         title: "Concreteros Unidos",
-         desc: "Impulsamos alianzas, representación gremial y voz sectorial para pequeñas y medianas concreteras.",
+         title: "Nuestra Historia",
+         desc: "AMCI surge en 2003 en el noreste de México, especialmente en Coahuila, Nuevo León y Tamaulipas. Desde entonces, hemos evolucionado junto a nuestros socios y proveedores, reorientando constantemente nuestros objetivos hacia una industria más fuerte y colaborativa.",
       },
       {
          id: 2,
          icon: "icon-roof-9",
-         title: "Formación Continua",
-         desc: "Capacitaciones técnicas, certificaciones y convenios con el IMCYC para profesionalizar al sector.",
+         title: "Misión 2025",
+         desc: "Brindar beneficios reales a las concreteras afiliadas mediante alianzas con instituciones clave y el respaldo de patrocinadores, fomentando la capacitación, la innovación tecnológica y el desarrollo sustentable en todo el país.",
       },
    ],
 }
