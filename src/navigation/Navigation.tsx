@@ -1,18 +1,15 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Index from '../pages/index'
-// import HomeMain from '../pages/HomeMain'
-// import HomeTwoMain from '../pages/HomeTwoMain';
 import Eventos from '../pages/eventos';
 import HomeThreeMain from '../pages/HomeThreeMain';
 import DarkHomeMain from '../pages/DarkHomeMain';
-// import AboutMain from '../pages/AboutMain';
 import QuienesSomos from '../pages/quienes_Somos';
 import ServiceMain from '../pages/ServiceMain';
 import ServiceDetailsMain from '../pages/ServiceDetailsMain';
-// import ProjectMain from '../pages/ProjectMain';
 import Proveedores from '../pages/proveedores';
 import Socios from '../pages/socios';
 import Certificaciones from '../pages/certificaciones';
+import Publicaciones from '../pages/publicaciones';
 import Convenios from '../pages/convenios';
 import ProjectDetailsMain from '../pages/ProjectDetailsMain';
 import TeamMain from '../pages/TeamMain';
@@ -21,7 +18,6 @@ import FaqMain from '../pages/FaqMain';
 import BlogStandardMain from '../pages/BlogStandardMain';
 import BlogGridMain from '../pages/BlogGridMain';
 import BlogDetailsMain from '../pages/BlogDetailsMain';
-// import ContactMain from '../pages/ContactMain';
 import Contacto from '../pages/contacto';
 import Maquinaria from '../pages/maquinaria';
 import Software from '../pages/software';
@@ -72,6 +68,7 @@ const AppNavigation = () => {
         <Route path="/proveedores" element={<Proveedores />} />
         <Route path="/socios" element={<Socios />} />
         <Route path="/certificaciones" element={<Certificaciones />} />
+        <Route path="/publicaciones" element={<Publicaciones />} />
         <Route path="/convenios" element={<Convenios />} />
         <Route path="/project-details" element={<ProjectDetailsMain />} />
         <Route path="/team" element={<TeamMain />} />

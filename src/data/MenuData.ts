@@ -30,6 +30,7 @@ const menu_data: MenuItem[] = [
       { link: "/quienes_Somos", title: "Quienes somos" },
       { link: "/eventos", title: "Eventos" },
       { link: "/mesa_Directiva", title: "Mesa directiva" },
+      { link: "/publicaciones", title: "Publicaciones" },
       { link: "/software", title: "Software" },
     ],
   },
