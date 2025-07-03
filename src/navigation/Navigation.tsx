@@ -21,7 +21,6 @@ import BlogDetailsMain from '../pages/BlogDetailsMain';
 import Contacto from '../pages/contacto';
 import Maquinaria from '../pages/maquinaria';
 import Software from '../pages/software';
-import Gestion from '../pages/gestion';
 import MNX from '../pages/mnx';
 import ConveniosCertificacion from '../pages/convenios_certificacion';
 import Material_Capasitacion from '../pages/material_Capasitacion';
@@ -79,7 +78,6 @@ const AppNavigation = () => {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/maquinaria" element={<Maquinaria />} />
         <Route path="/software" element={<Software />} />
-        <Route path="/gestion" element={<Gestion />} />
         <Route path="/pruebas_Concreto" element={<Pruebas_Concreto />} />
         <Route path="/mnx" element={<MNX />} />
         <Route path="/convenios_certificacion" element={<ConveniosCertificacion />} />
