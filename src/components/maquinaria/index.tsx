@@ -2,8 +2,8 @@ import ServiceArea from "./ServiceArea"
 import HeaderOne from "../../layouts/headers/HeaderOne"
 import BreadCrumb from "../common/BreadCrumb"
 import FooterThree from "../../layouts/footers/FooterThree"
-import Choose from "../homes/home-three/Choose"
-import Counter from "../homes/home-one/Counter"
+import Choose from "./Choose"
+import Counter from "./Counter"
 
 const Service = () => {
    return (

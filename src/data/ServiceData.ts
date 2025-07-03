@@ -96,81 +96,105 @@ const service_data: DataType[] = [
     id: 1,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-truck-loading", // Bomba Pluma (camión con brazo)
-    title: "Bomba </br> Pluma",
-    desc: "Equipo hidráulico montado sobre camión para distribución precisa del concreto en obras verticales o de difícil acceso.",
+    icon: "fas fa-tools", // Equipamiento para concreteras
+    title: "Equipamiento para concreteras",
+    desc: "Soluciones en maquinaria nueva y usada para operación, producción y bombeo de concreto. Compra, venta, arrendamiento y promoción entre socios.",
   },
   {
     id: 2,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-2.jpg",
-    icon: "fas fa-industry", // Planta Dosificadora (industria)
-    title: "Planta </br> Dosificadora",
-    desc: "Sistema fijo o móvil que mezcla los componentes del concreto garantizando la proporción exacta y la trazabilidad.",
+    icon: "fas fa-building", // Bomba Pluma
+    title: "Bomba Pluma",
+    desc: "Equipo hidráulico montado sobre camión para distribuir concreto en estructuras verticales o zonas de difícil acceso.",
   },
   {
     id: 3,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-3.jpg",
-    icon: "fas fa-truck-monster", // Camión Revolvedor (camión grande)
-    title: "Camión </br> Revolvedor",
-    desc: "Vehículo especializado para el transporte de concreto premezclado, con tambor giratorio para mantener la mezcla homogénea.",
+    icon: "fas fa-cogs", // Planta Dosificadora
+    title: "Planta Dosificadora",
+    desc: "Sistema fijo o móvil que mezcla componentes con precisión y trazabilidad para garantizar la calidad del concreto.",
   },
   {
     id: 4,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-truck-moving", // Auto bomba (camión de mudanza)
-    title: "Auto </br> bomba",
-    desc: "Unidad móvil con capacidad de bombeo directo a grandes distancias y alturas, ideal para obras horizontales.",
+    icon: "fas fa-truck", // Camión Revolvedor
+    title: "Camión Revolvedor",
+    desc: "Vehículo especializado con tambor giratorio para mantener homogénea la mezcla durante el transporte.",
   },
   {
     id: 5,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-cogs", // Planta de Trituración (engranes)
-    title: "Planta </br> de Trituración",
-    desc: "Maquinaria para procesamiento de agregados, permitiendo a las concreteras controlar la calidad de sus materiales.",
+    icon: "fas fa-truck-moving", // Autobomba
+    title: "Autobomba",
+    desc: "Unidad móvil equipada con brazo y bomba que impulsa el concreto directamente a grandes distancias u obras horizontales.",
   },
   {
     id: 6,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-warehouse", // Tolvas y Silos (almacén)
-    title: "Tolvas </br> y Silos",
-    desc: "Contenedores industriales utilizados para almacenamiento y dosificación de cemento y agregados con alta eficiencia.",
+    icon: "fas fa-mountain", // Planta de Trituración
+    title: "Planta de Trituración",
+    desc: "Equipo para procesar agregados en sitio, permitiendo mayor control sobre la calidad de los materiales utilizados.",
   },
   {
     id: 7,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-trailer", // Chasis de Arrastre (remolque)
-    title: "Chasis </br> de Arrastre",
-    desc: "Plataforma móvil utilizada para transportar equipos pesados o plantas móviles entre obras y centros logísticos.",
+    icon: "fas fa-boxes", // Tolvas y Silos
+    title: "Tolvas y Silos",
+    desc: "Contenedores industriales para almacenar y dosificar cemento y agregados de manera eficiente y segura.",
   },
   {
     id: 8,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-tools", // Aditamentos para bombeo (herramientas)
-    title: "Aditamentos </br> para bombeo",
-    desc: "Mangueras, tubos y accesorios especializados que permiten un flujo continuo y seguro del concreto en obra.",
+    icon: "fas fa-trailer", // Chasis de Arrastre
+    title: "Chasis de Arrastre",
+    desc: "Plataforma móvil para transportar plantas modulares o maquinaria pesada entre distintas ubicaciones.",
   },
   {
     id: 9,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-desktop", // Sistema de Control Automatizado (pantalla)
-    title: "Sistema </br> de Control Automatizado",
-    desc: "Software y hardware que permite monitorear y ajustar en tiempo real el proceso de producción de concreto.",
+    icon: "fas fa-link", // Aditamentos para Bombeo
+    title: "Aditamentos para Bombeo",
+    desc: "Mangueras, tubos, conexiones y accesorios que aseguran un flujo seguro y continuo del concreto.",
   },
   {
     id: 10,
     page: "maquinaria",
     thumb: "/assets/imgs/service/service-1.jpg",
-    icon: "fas fa-vials", // Laboratorio de Control de Calidad (tubos de ensayo)
-    title: "Laboratorio </br> de Control de Calidad",
-    desc: "Equipamiento técnico para realizar pruebas de resistencia, asentamiento y composición del concreto, conforme a norma.",
+    icon: "fas fa-brain", // Sistema de Control Automatizado
+    title: "Sistema de Control Automatizado",
+    desc: "Solución integral de software y hardware para monitoreo y ajuste en tiempo real de plantas y procesos productivos.",
+  },
+  {
+    id: 11,
+    page: "maquinaria",
+    thumb: "/assets/imgs/service/service-1.jpg",
+    icon: "fas fa-vials", // Laboratorio de Control de Calidad
+    title: "Laboratorio de Control de Calidad",
+    desc: "Equipamiento técnico para ejecutar ensayos de resistencia, asentamiento y composición bajo normativa vigente.",
+  },
+  {
+    id: 12,
+    page: "maquinaria",
+    thumb: "/assets/imgs/service/service-1.jpg",
+    icon: "fas fa-truck-pickup", // Cargador Frontal
+    title: "Cargador Frontal",
+    desc: "Maquinaria versátil para manejo de agregados en patios, plantas y zonas de acopio. Ideal para carga rápida en tolvas.",
+  },
+  {
+    id: 13,
+    page: "maquinaria",
+    thumb: "/assets/imgs/service/service-1.jpg",
+    icon: "fas fa-shopping-cart", // Refacciones y Aditivos
+    title: "Refacciones y Aditivos",
+    desc: "Repuestos y aditivos certificados para mantener la operación de tus equipos y mejorar el desempeño del concreto.",
   },
 
   //convenios

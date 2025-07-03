@@ -233,6 +233,39 @@
   vertical-align: middle;
 }
 
+/* Para las tarjetas de maquinaria */
+.service-slider-area .image {
+  position: relative;
+}
+
+.service-slider-area .icon-box {
+  position: absolute;
+  top: 70%; /* Ajusta la distancia desde arriba */
+  right: 5%; /* Ajusta la distancia desde la derecha */
+  z-index: 2;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 2px 8px #0001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .service-slider-area .icon-box {
+    top: 63%; /* Ajusta la distancia desde arriba */
+  }
+}
+
+.service-slider-area .icon-box i {
+  font-size: 40px !important;
+  color: #e51b23;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+}
+
 /* Tamaño uniforme para las tarjetas de eventos */
 .service-3-box-area {
   min-height: 600px; /* Ajusta este valor según tu diseño */

@@ -27,12 +27,12 @@ const ServiceArea = () => {
               <div key={item.id} className="col-xxl-4 col-xl-4 col-lg-4 mb-15">
                 <div className="service-slider-area p-relative">
                   <figure className="image w-img">
-                    <img src={item.thumb} alt="" />
-                  </figure>
-                  <div className="content">
                     <div className="icon-box">
                       <i className={item.icon}></i>
                     </div>
+                    <img src={item.thumb} alt="" />
+                  </figure>
+                  <div className="content">
                     <h4 className="mb-15">
                       <Link to="service-details">
                         <span
