@@ -175,94 +175,110 @@ const service_data: DataType[] = [
 
   //convenios
 
-  {
-    id: 1,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Convenio IMCYC",
-    desc: "Accede a certificaciones profesionales con tarifas preferenciales gracias a nuestra alianza estratégica con el Instituto Mexicano del Cemento y del Concreto.",
-  },
-  {
-    id: 2,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Webinars Colaborativos",
-    desc: "Participa como proveedor en espacios formativos junto a concreteros independientes, con hasta tres webinars al año para posicionarte ante socios clave.",
-  },
-  {
-    id: 3,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Anuncios en Revista México en Concreto",
-    desc: "Da visibilidad a tu marca con media plana o plana completa durante 6 o 12 meses en nuestra publicación especializada en el sector del concreto.",
-  },
-  {
-    id: 4,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Banner Web y Ficha de Contacto",
-    desc: "Destaca tu marca en nuestro sitio oficial con un banner visible y ficha comercial interactiva durante el periodo contratado (6 o 12 meses).",
-  },
-  {
-    id: 5,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Stands con Descuento en Constructo",
-    desc: "Accede a precios preferenciales en stands de exposición durante el evento Constructo, punto de encuentro clave para el sector concretero.",
-  },
-  {
-    id: 6,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Acceso a World of Concrete (Las Vegas)",
-    desc: "Obtén pases gratuitos como proveedor afiliado para asistir a la feria internacional más importante del concreto en Las Vegas.",
-  },
-  {
-    id: 7,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Difusión por Email Marketing",
-    desc: "Promociona tus servicios con envíos directos a más de 2,500 contactos de la industria concretera mediante nuestras campañas por correo.",
-  },
-  {
-    id: 8,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Difusión vía WhatsApp",
-    desc: "Llega de forma inmediata a más de 1,000 concreteros afiliados con tus promociones, lanzamientos o comunicados vía WhatsApp profesional.",
-  },
-  {
-    id: 9,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Contacto con Socios",
-    desc: "Conéctate directamente con concreteros afiliados a través de actividades estratégicas pensadas para generar networking y nuevos leads.",
-  },
-  {
-    id: 10,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Aparece tu Logo en la Web",
-    desc: "Incorpora tu logotipo en las secciones de mayor tráfico del sitio AMCI, ya sea en la homepage o como aliado destacado según tu convenio.",
-  },
-  {
-    id: 11,
-    page: "convenios",
-    thumb: "/assets/imgs/service/service-10.jpg",
-    icon: "icon-roof-6",
-    title: "Descuento en Cursos AMCI",
-    desc: "Capacita a tu equipo con tarifas especiales en talleres, certificaciones y cursos técnicos organizados por la asociación.",
-  },
+    {
+      id: 1,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-certificate", // IMCYC
+      title: "Convenio IMCYC",
+      desc: "Accede a certificaciones profesionales con tarifas preferenciales gracias a nuestra alianza estratégica con el Instituto Mexicano del Cemento y del Concreto.",
+    },
+    {
+      id: 2,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-chalkboard-teacher", // Webinars
+      title: "Webinars Colaborativos",
+      desc: "Participa como proveedor en espacios formativos junto a concreteros independientes, con hasta tres webinars al año para posicionarte ante socios clave.",
+    },
+    {
+      id: 3,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-newspaper", // Revista
+      title: "Anuncios en Revista México en Concreto",
+      desc: "Da visibilidad a tu marca con media plana o plana completa durante 6 o 12 meses en nuestra publicación especializada en el sector del concreto.",
+    },
+    {
+      id: 4,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-desktop", // Banner web
+      title: "Banner Web y Ficha de Contacto",
+      desc: "Destaca tu marca en nuestro sitio oficial con un banner visible y ficha comercial interactiva durante el periodo contratado (6 o 12 meses).",
+    },
+    {
+      id: 5,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-store-alt", // Stands
+      title: "Stands con Descuento en Constructo",
+      desc: "Accede a precios preferenciales en stands de exposición durante el evento Constructo, punto de encuentro clave para el sector concretero.",
+    },
+    {
+      id: 6,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-passport", // Acceso internacional
+      title: "Acceso a World of Concrete (Las Vegas)",
+      desc: "Obtén pases gratuitos como proveedor afiliado para asistir a la feria internacional más importante del concreto en Las Vegas.",
+    },
+    {
+      id: 7,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-envelope-open-text", // Email marketing
+      title: "Difusión por Email Marketing",
+      desc: "Promociona tus servicios con envíos directos a más de 2,500 contactos de la industria concretera mediante nuestras campañas por correo.",
+    },
+    {
+      id: 8,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fab fa-whatsapp", // WhatsApp
+      title: "Difusión vía WhatsApp",
+      desc: "Llega de forma inmediata a más de 1,000 concreteros afiliados con tus promociones, lanzamientos o comunicados vía WhatsApp profesional.",
+    },
+    {
+      id: 9,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-user-friends", // Contacto con socios
+      title: "Contacto con Socios",
+      desc: "Conéctate directamente con concreteros afiliados a través de actividades estratégicas pensadas para generar networking y nuevos leads.",
+    },
+    {
+      id: 10,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-award", // Logo en la web
+      title: "Aparece tu Logo en la Web",
+      desc: "Incorpora tu logotipo en las secciones de mayor tráfico del sitio AMCI, ya sea en la homepage o como aliado destacado según tu convenio.",
+    },
+    {
+      id: 11,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-graduation-cap", // Cursos
+      title: "Descuento en Cursos AMCI",
+      desc: "Capacita a tu equipo con tarifas especiales en talleres, certificaciones y cursos técnicos organizados por la asociación.",
+    },
+    {
+      id: 12,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-plane-departure", // Viva Aerobus
+      title: "Convenio Viva Aerobus",
+      desc: "Descuentos especiales en vuelos nacionales operados por Viva Aerobus para socios activos AMCI.",
+    },
+    {
+      id: 13,
+      page: "convenios",
+      thumb: "/assets/imgs/service/service-10.jpg",
+      icon: "fas fa-building", // Expo World of Concrete
+      title: "Convenio World of Concrete",
+      desc: "Accede sin costo al piso de exhibición de la feria internacional más importante del concreto en Las Vegas.",
+    },
 ];
 
 export default service_data;
