@@ -266,6 +266,36 @@
   text-align: center;
 }
 
+/* Asegura que la imagen tenga un alto fijo y el contenido ocupe el resto */
+.service-slider-area.p-relative {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+  overflow: hidden;
+}
+
+.service-slider-area .image {
+  position: relative;
+  width: 100%;
+  min-height: 247px;
+  max-height: 247px;
+  height: 247px;
+  object-fit: cover;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.service-slider-area .content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px 18px 18px 18px;
+}
+
 /* Tamaño uniforme para las tarjetas de eventos */
 .service-3-box-area {
   min-height: 600px; /* Ajusta este valor según tu diseño */
