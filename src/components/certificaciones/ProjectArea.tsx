@@ -39,7 +39,7 @@ const ProjectArea = () => {
                             {item.title}
                           </a>
                         ) : (
-                          <Link to={item.link ?? "/project-details"}>
+                          <Link to={item.link ?? "#"}>
                             {item.title}
                           </Link>
                         )}
@@ -55,7 +55,7 @@ const ProjectArea = () => {
                           <i className="icon-arrow-up"></i>
                         </a>
                       ) : (
-                        <Link to={item.link ?? "/project-details"}>
+                        <Link to={item.link ?? "#"}>
                           <i className="icon-arrow-up"></i>
                         </Link>
                       )}
