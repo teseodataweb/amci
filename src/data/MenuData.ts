@@ -46,7 +46,7 @@ const menu_data: MenuItem[] = [
   },
   {
     id: 4,
-    title: "Convenios y Veneficios",
+    title: "Convenios y Beneficios",
     link: "#",
     has_dropdown: true,
     sub_menus: [

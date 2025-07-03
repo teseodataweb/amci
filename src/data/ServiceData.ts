@@ -175,110 +175,169 @@ const service_data: DataType[] = [
 
   //convenios
 
-    {
-      id: 1,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-certificate", // IMCYC
-      title: "Convenio IMCYC",
-      desc: "Accede a certificaciones profesionales con tarifas preferenciales gracias a nuestra alianza estratégica con el Instituto Mexicano del Cemento y del Concreto.",
-    },
-    {
-      id: 2,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-chalkboard-teacher", // Webinars
-      title: "Webinars Colaborativos",
-      desc: "Participa como proveedor en espacios formativos junto a concreteros independientes, con hasta tres webinars al año para posicionarte ante socios clave.",
-    },
-    {
-      id: 3,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-newspaper", // Revista
-      title: "Anuncios en Revista México en Concreto",
-      desc: "Da visibilidad a tu marca con media plana o plana completa durante 6 o 12 meses en nuestra publicación especializada en el sector del concreto.",
-    },
-    {
-      id: 4,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-desktop", // Banner web
-      title: "Banner Web y Ficha de Contacto",
-      desc: "Destaca tu marca en nuestro sitio oficial con un banner visible y ficha comercial interactiva durante el periodo contratado (6 o 12 meses).",
-    },
-    {
-      id: 5,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-store-alt", // Stands
-      title: "Stands con Descuento en Constructo",
-      desc: "Accede a precios preferenciales en stands de exposición durante el evento Constructo, punto de encuentro clave para el sector concretero.",
-    },
-    {
-      id: 6,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-passport", // Acceso internacional
-      title: "Acceso a World of Concrete (Las Vegas)",
-      desc: "Obtén pases gratuitos como proveedor afiliado para asistir a la feria internacional más importante del concreto en Las Vegas.",
-    },
-    {
-      id: 7,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-envelope-open-text", // Email marketing
-      title: "Difusión por Email Marketing",
-      desc: "Promociona tus servicios con envíos directos a más de 2,500 contactos de la industria concretera mediante nuestras campañas por correo.",
-    },
-    {
-      id: 8,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fab fa-whatsapp", // WhatsApp
-      title: "Difusión vía WhatsApp",
-      desc: "Llega de forma inmediata a más de 1,000 concreteros afiliados con tus promociones, lanzamientos o comunicados vía WhatsApp profesional.",
-    },
-    {
-      id: 9,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-user-friends", // Contacto con socios
-      title: "Contacto con Socios",
-      desc: "Conéctate directamente con concreteros afiliados a través de actividades estratégicas pensadas para generar networking y nuevos leads.",
-    },
-    {
-      id: 10,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-award", // Logo en la web
-      title: "Aparece tu Logo en la Web",
-      desc: "Incorpora tu logotipo en las secciones de mayor tráfico del sitio AMCI, ya sea en la homepage o como aliado destacado según tu convenio.",
-    },
-    {
-      id: 11,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-graduation-cap", // Cursos
-      title: "Descuento en Cursos AMCI",
-      desc: "Capacita a tu equipo con tarifas especiales en talleres, certificaciones y cursos técnicos organizados por la asociación.",
-    },
-    {
-      id: 12,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-plane-departure", // Viva Aerobus
-      title: "Convenio Viva Aerobus",
-      desc: "Descuentos especiales en vuelos nacionales operados por Viva Aerobus para socios activos AMCI.",
-    },
-    {
-      id: 13,
-      page: "convenios",
-      thumb: "/assets/imgs/service/service-10.jpg",
-      icon: "fas fa-building", // Expo World of Concrete
-      title: "Convenio World of Concrete",
-      desc: "Accede sin costo al piso de exhibición de la feria internacional más importante del concreto en Las Vegas.",
-    },
+  {
+    id: 1,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-certificate", // World of Concrete – Las Vegas
+    title: "World of Concrete – Las Vegas",
+    desc: "Accede gratuitamente al piso de exhibición del evento internacional más importante del concreto, como parte de la delegación AMCI.",
+  },
+  {
+    id: 2,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-hotel", // Hotel City Express
+    title: "Hotel City Express",
+    desc: "Tarifas preferenciales para socios activos en toda la cadena. Solicita tu número de convenio en info@amciac.org.",
+  },
+  {
+    id: 3,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-plane", // Viva Aerobus
+    title: "Viva Aerobus",
+    desc: "Viaja con descuento en vuelos nacionales para eventos y reuniones AMCI. Convenio exclusivo para concreteros afiliados.",
+  },
+  {
+    id: 4,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-university", // Convenio con IMCYC
+    title: "Convenio con IMCYC",
+    desc: "Accede a certificaciones y cursos técnicos del Instituto Mexicano del Cemento y del Concreto con tarifas preferenciales.",
+  },
+  {
+    id: 5,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-ad", // Banner y Ficha Comercial
+    title: "Banner y Ficha Comercial",
+    desc: "Promociona tu marca como proveedor en el sitio AMCI con banner web y ficha interactiva durante 6 o 12 meses.",
+  },
+  {
+    id: 6,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-newspaper", // Anuncio en México en Concreto
+    title: "Anuncio en México en Concreto",
+    desc: "Elige entre media plana o plana completa para anunciar tu empresa en la revista más leída del sector.",
+  },
+  {
+    id: 7,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-chalkboard-teacher", // Webinars de Proveedores
+    title: "Webinars de Proveedores",
+    desc: "Participa como expositor en hasta 3 webinars anuales dirigidos a concreteros afiliados.",
+  },
+  {
+    id: 8,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-envelope", // Difusión por Email
+    title: "Difusión por Email",
+    desc: "Envía tus campañas comerciales a más de 2,500 contactos del sector a través del canal oficial de AMCI.",
+  },
+  {
+    id: 9,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fab fa-whatsapp", // Difusión por WhatsApp
+    title: "Difusión por WhatsApp",
+    desc: "Promociona lanzamientos, promociones o nuevos servicios con mensajes a una red exclusiva de concreteros activos.",
+  },
+  {
+    id: 10,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-award", // Descuento en Constructo
+    title: "Descuento en Constructo",
+    desc: "Precios preferenciales en stands de exposición durante el evento Constructo, el principal foro del concreto independiente.",
+  },
+  {
+    id: 11,
+    page: "convenios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-user-friends", // Contacto con Socios
+    title: "Contacto con Socios",
+    desc: "Vinculación directa con concreteros afiliados a través de eventos, ruedas de negocios y campañas estratégicas.",
+  },
+
+  // Beneficios
+
+  {
+    id: 1,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-users", // Representación Gremial
+    title: "Representación Gremial",
+    desc: "Participación activa ante cámaras, asociaciones y organismos del sector para fortalecer la voz del concreto independiente.",
+  },
+  {
+    id: 2,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-balance-scale", // Gestión Gubernamental
+    title: "Gestión Gubernamental",
+    desc: "Apoyo institucional en trámites, normativas y vinculación con autoridades del sector construcción.",
+  },
+  {
+    id: 3,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-book-open", // Capacitación Gratuita
+    title: "Capacitación Gratuita",
+    desc: "Accede sin costo a talleres técnicos y cursos administrativos organizados por AMCI durante el año.",
+  },
+  {
+    id: 4,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-graduation-cap", // Beca en Cursos Especializados
+    title: "Beca en Cursos Especializados",
+    desc: "Obtén una inscripción gratuita al año para cualquiera de nuestros cursos, con valor máximo de $5,000 MXN.",
+  },
+  {
+    id: 5,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-newspaper", // Revista México en Concreto
+    title: "Revista México en Concreto",
+    desc: "Recibe la edición digital de nuestra revista especializada, con artículos técnicos, casos de éxito y tendencias del concreto.",
+  },
+  {
+    id: 6,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-globe", // Presencia Web como Socio
+    title: "Presencia Web como Socio",
+    desc: "Aparece en el sitio oficial de AMCI con tu ficha de contacto, ubicación y categoría de servicio.",
+  },
+  {
+    id: 7,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-calendar-alt", // Eventos Exclusivos
+    title: "Eventos Exclusivos",
+    desc: "Invitación preferencial a congresos, juntas regionales y exposiciones con conferencias de alto nivel.",
+  },
+  {
+    id: 8,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-cogs", // Apoyo con Maquinaria
+    title: "Apoyo con Maquinaria",
+    desc: "Facilitamos la búsqueda y vinculación para adquirir o vender equipo como revolvedoras o bombas pluma.",
+  },
+  {
+    id: 9,
+    page: "beneficios",
+    thumb: "/assets/imgs/service/service-10.jpg",
+    icon: "fas fa-headset", // Atención Personalizada
+    title: "Atención Personalizada",
+    desc: "Soporte directo por parte del equipo AMCI para gestiones internas, certificaciones, eventos y vinculación técnica.",
+  },
 ];
 
 export default service_data;

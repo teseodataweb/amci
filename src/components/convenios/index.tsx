@@ -1,5 +1,6 @@
 import Banner from "./Banner"
 import Service from "./Service"
+import Service2 from "./Service2"
 import Choose from "./Choose"
 import HeaderOne from "../../layouts/headers/HeaderOne"
 import FooterThree from "../../layouts/footers/FooterThree"
@@ -11,6 +12,7 @@ const HomeThree = () => {
          <main>
             <Banner />
             <Service />
+            <Service2 />
             <Choose />
          </main>
          <FooterThree />
