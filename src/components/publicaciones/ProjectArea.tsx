@@ -7,12 +7,12 @@ const ProjectArea = () => {
         {/* Superior, título y párrafo */}
         <div className="row">
           <div className="col-12 text-center mb-40">
-            <span className="section-sub-title">Certificaciones AMCI</span>
+            <span className="section-sub-title">PUBLICACIONES AMCI</span>
             <h2 className="section-title mt-10">
-              Eleva tus estándares, valida tu excelencia
+              Contenido técnico y estratégico para concreteras independientes
             </h2>
             <p className="mb-35">
-              Certifica tu planta, tus procesos y tu maquinaria con el respaldo técnico de AMCI. Fortalece tu operación y accede a nuevas oportunidades validando tu calidad de forma profesional.
+              Consulta nuestras publicaciones oficiales enfocadas en la industria del concreto. Aquí encontrarás boletines, documentos técnicos, comunicados y materiales especializados que fortalecen el conocimiento y la toma de decisiones dentro de tu concretera. Todos los contenidos son elaborados o validados por AMCI y sus aliados estratégicos.
             </p>
           </div>
         </div>

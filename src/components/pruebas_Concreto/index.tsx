@@ -1,19 +1,17 @@
-import FooterThree from "../../layouts/footers/FooterThree"
+import Service from "./Service"
 import HeaderOne from "../../layouts/headers/HeaderOne"
-import BreadCrumb from "../common/BreadCrumb"
-import ServiceDetailsArea from "./ServiceDetailsArea"
+import FooterThree from "../../layouts/footers/FooterThree"
 
-const ServiceDetails = () => {
-   return (
-      <>
-         <HeaderOne />
-         <main>
-            <BreadCrumb sub_title="Pruebas concreto" title="Pruebas concreto" />
-            <ServiceDetailsArea />
-         </main>
-         <FooterThree />
-      </>
-   )
+const HomeOne = () => {
+  return (
+    <>
+      <HeaderOne />
+      <main>
+        <Service style={false} />
+      </main>
+      <FooterThree />
+    </>
+  )
 }
 
-export default ServiceDetails
+export default HomeOne

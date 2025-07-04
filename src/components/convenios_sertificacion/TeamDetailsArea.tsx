@@ -1,19 +1,5 @@
 import { Link } from "react-router-dom";
 
-interface DataType {
-  name: string;
-  designation: string;
-  desc_1: string;
-  desc_2?: string;
-  list_items?: string[];
-  skillbar: {
-    title: string;
-    skill: number;
-  }[];
-  title: string;
-  img: string;
-}
-
 const teamData = [
   {
     id: 1,
