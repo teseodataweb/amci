@@ -22,6 +22,10 @@ const tab_title: TabData[] = [
       icon: "fas fa-file-invoice", // NMX-C-161
       title: "NMX-C-161",
    },
+   {
+      icon: "fas fa-file-invoice", // NMX-C-161
+      title: "NMX-EC-17025",
+   },
 ];
 
 interface DataType {
@@ -37,29 +41,36 @@ const service_data: DataType[] = [
       id: 1,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
       title: "Concreto Hidráulico Premezclado",
-      desc: "Esta norma establece los requisitos técnicos y operativos que debe cumplir el concreto hidráulico premezclado en cuanto a resistencia, consistencia y entrega.",
-      list: ["Define rangos de resistencia y asentamiento", "Establece condiciones de aceptación y rechazo", "Requiere control documental del proceso"],
+      desc: "Establece los requisitos técnicos del concreto premezclado para asegurar su resistencia, asentamiento y condiciones de entrega.",
+      list: ["Define rangos de resistencia y revenimiento", "Establece condiciones de aceptación y rechazo", "Requiere trazabilidad del proceso de producción"],
    },
    {
       id: 2,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
       title: "Muestreo de Concreto Fresco",
-      desc: "Protocolo para recolectar muestras representativas del concreto fresco en condiciones de obra o planta para ensayos de calidad.",
-      list: ["Procedimiento de muestreo en obra o en planta", "Criterios para validación de la muestra", "Instrucciones para etiquetado y resguardo"],
+      desc: "Especifica cómo recolectar muestras de concreto en planta u obra, garantizando representatividad y validez para ensayo.",
+      list: ["Procedimiento para toma de muestra", "Requisitos de etiquetado y conservación", "Uso en pruebas de control de calidad"],
    },
    {
       id: 3,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
       title: "Ensayo de Revenimiento (Slump Test)",
-      desc: "Especifica el método para medir la consistencia del concreto mediante el cono de Abrams, garantizando uniformidad en el diseño de mezcla.",
-      list: ["Procedimiento paso a paso con cono", "Interpretación de resultados", "Tolerancias aceptadas según tipo de mezcla"],
+      desc: "Define el método para medir la consistencia del concreto fresco, asegurando que cumpla con el diseño de mezcla.",
+      list: ["Uso del cono de Abrams", "Valores límite de aceptación según tipo", "Interpretación de resultados"],
    },
    {
       id: 4,
       thumb: "/assets/imgs/resources/service-tab-1.jpg",
       title: "Ensayo de Compresión en Cilindros",
-      desc: "Método oficial para determinar la resistencia a compresión del concreto endurecido mediante cilindros moldeados y curados.",
-      list: ["Definición de curado y condiciones ambientales", "Uso de prensa calibrada para ruptura", "Registro y validación de resultados"],
+      desc: "Establece cómo realizar pruebas de compresión en concreto endurecido mediante cilindros curados bajo norma.",
+      list: ["Condiciones de curado y edad del cilindro", "Procedimiento para ruptura en prensa", " Criterios para validación de resultados"],
+   },
+   {
+      id: 5,
+      thumb: "/assets/imgs/resources/service-tab-1.jpg",
+      title: "Laboratorios de Ensayo y Calibración",
+      desc: "Norma clave para laboratorios que buscan acreditarse ante EMA. Abarca desde requisitos técnicos hasta gestión de calidad.",
+      list: ["Requiere sistema de gestión documental", "Aplicación para empresas con laboratorio interno", "Acreditación respaldada por norma mexicana"],
    },
 ];
 

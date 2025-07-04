@@ -10,19 +10,19 @@ const process_data: Datatype[] = [
       id: 1,
       icon: "fas fa-search", // Diagnóstico normativo
       title: "Diagnóstico normativo",
-      desc: "Evaluamos tus operaciones actuales frente a la norma NMX-EC-17025 para detectar áreas de mejora.",
+      desc: "Evaluamos tus operaciones frente a la norma NMX-EC-17025 para detectar brechas técnicas y documentales.",
    },
    {
       id: 2,
       icon: "fas fa-tools", // Implementación de requisitos
       title: "Implementación de requisitos",
-      desc: "Aplicamos mejoras técnicas y documentales para alinear tu laboratorio o planta con los criterios exigidos.",
+      desc: "Aplicamos mejoras operativas y de gestión para alinear tu laboratorio o planta con los criterios exigidos por la EMA y la LFMN.",
    },
    {
       id: 3,
       icon: "fas fa-certificate", // Validación y certificación
       title: "Validación y certificación",
-      desc: "Preparamos tu expediente, ensayos y registros para que obtengas tu acreditación con respaldo institucional.",
+      desc: "Preparamos tu expediente técnico, ensayos y auditorías para obtener la acreditación oficial ante organismos competentes.",
    },
 ];
 
