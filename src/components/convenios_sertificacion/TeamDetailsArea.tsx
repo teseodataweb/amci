@@ -120,6 +120,17 @@ const TeamDetailsArea = () => {
   return (
     <section className="team-details-page section-space-top">
       <div className="small-container">
+        <div className="row">
+          <div className="col-12 text-center mb-40">
+            <span className="section-sub-title">Convenios y Certificaciones</span>
+            <h2 className="section-title mt-10">
+              Alianzas que respaldan tu crecimiento técnico
+            </h2>
+            <p className="mb-35">
+              En AMCI generamos convenios estratégicos con organismos líderes e instituciones reconocidas para ofrecer a nuestros socios ventajas competitivas en capacitación, certificación y posicionamiento comercial. Desde acreditaciones técnicas hasta presencia en medios especializados, cada alianza está diseñada para fortalecer a las concreteras independientes con respaldo normativo, acceso a eventos clave y herramientas de valor real.
+            </p>
+          </div>
+        </div>
         {teamList.map((member, idx) => (
           <div className="team-member-info mb-80" key={idx}>
             <div className="row">
