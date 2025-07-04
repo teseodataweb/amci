@@ -4,14 +4,14 @@ interface DataType {
   name: string;
   designation: string;
   desc_1: string;
-  desc_2?: string; // Nueva descripción opcional
-  list_items?: string[]; // Nuevo listado opcional
+  desc_2?: string;
+  list_items?: string[];
   skillbar: {
     title: string;
     skill: number;
   }[];
   title: string;
-  img: string; // Nueva propiedad para la imagen
+  img: string;
 }
 
 const team_data: DataType = {
@@ -76,8 +76,7 @@ const team_data3: DataType = {
 const team_data4: DataType = {
   name: "Curso para Plantas de Concreto",
   designation: "Capacitación en Normativa y Procesos",
-  desc_1:
-    "Formación enfocada en los criterios de certificación de plantas.",
+  desc_1: "Formación enfocada en los criterios de certificación de plantas.",
   desc_2: "¿Qué incluye?",
   list_items: [
     "Introducción a normativas clave (NMX y criterios AMCI).",
@@ -96,8 +95,7 @@ const team_data4: DataType = {
 const team_data5: DataType = {
   name: "Curso de Operadores Bomba Pluma",
   designation: "Formación en Seguridad y Eficiencia",
-  desc_1:
-    "Entrenamiento obligatorio para operadores que deseen certificarse.",
+  desc_1: "Entrenamiento obligatorio para operadores que deseen certificarse.",
   desc_2: "Pasos del proceso:",
   list_items: [
     "Registro con datos de equipo y operador.",
@@ -120,17 +118,35 @@ const TeamDetailsArea = () => {
   return (
     <section className="team-details-page section-space-top">
       <div className="small-container">
+        {/* Introducción */}
         <div className="row">
           <div className="col-12 text-center mb-40">
-            <span className="section-sub-title">Convenios y Certificaciones</span>
+            <span className="section-sub-title">
+              Convenios y Certificaciones
+            </span>
             <h2 className="section-title mt-10">
               Alianzas que respaldan tu crecimiento técnico
             </h2>
             <p className="mb-35">
-              En AMCI generamos convenios estratégicos con organismos líderes e instituciones reconocidas para ofrecer a nuestros socios ventajas competitivas en capacitación, certificación y posicionamiento comercial. Desde acreditaciones técnicas hasta presencia en medios especializados, cada alianza está diseñada para fortalecer a las concreteras independientes con respaldo normativo, acceso a eventos clave y herramientas de valor real.
+              En AMCI generamos convenios estratégicos con organismos líderes e
+              instituciones reconocidas para ofrecer a nuestros socios ventajas
+              competitivas en capacitación, certificación y posicionamiento
+              comercial. Desde acreditaciones técnicas hasta presencia en medios
+              especializados, cada alianza está diseñada para fortalecer a las
+              concreteras independientes con respaldo normativo, acceso a
+              eventos clave y herramientas de valor real.
             </p>
+            {/* CTA después de la introducción */}
+            <div className="about-btn-box wow fadeInLeft" data-wow-delay="1s">
+              <Link className="primary-btn-1 btn-hover" to="/contacto">
+                SOLICITA INFORMACIÓN &nbsp; |{" "}
+                <i className="icon-right-arrow"></i>
+                <span style={{ top: "147.172px", left: "108.5px" }}></span>
+              </Link>
+            </div>
           </div>
         </div>
+        {/* Componentes de detalle */}
         {teamList.map((member, idx) => (
           <div className="team-member-info mb-80" key={idx}>
             <div className="row">
@@ -202,6 +218,13 @@ const TeamDetailsArea = () => {
             </div>
           </div>
         ))}
+        {/* CTA al final de los componentes */}
+        <div className="about-btn-box wow fadeInLeft" data-wow-delay="1s">
+          <Link className="primary-btn-1 btn-hover" to="/contacto">
+            SOLICITA INFORMACIÓN &nbsp; | <i className="icon-right-arrow"></i>
+            <span style={{ top: "147.172px", left: "108.5px" }}></span>
+          </Link>
+        </div>
       </div>
     </section>
   );

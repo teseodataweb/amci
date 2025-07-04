@@ -66,7 +66,10 @@
   font-weight: 600;
   transition: all 0.2s;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  text-align: center; /* Agrega esta propiedad */
+  margin-top: 20px; /* Ajusta este valor según tu diseño */
 }
+
 .team-filter-btn.active,
 .team-filter-btn:hover {
   background: #007bff;
@@ -294,6 +297,16 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 24px 18px 18px 18px;
+}
+
+.about-btn-box {
+  text-align: center;
+  margin-bottom: 20px; /* ajusta la separación según sea necesario */
+}
+
+.wow.fadeInLeft {
+  animation-duration: 1s;
+  animation-delay: 0.3s;
 }
 
 /* Tamaño uniforme para las tarjetas de eventos */
