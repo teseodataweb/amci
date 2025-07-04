@@ -14,105 +14,133 @@ interface DataType {
   img: string;
 }
 
-const team_data: DataType = {
-  name: "NMX-EC",
-  designation: "Encargado de Validación Técnica",
-  desc_1:
-    "La NMX-EC regula a los organismos de certificación. Asegura su imparcialidad, competencia y continuidad operativa.",
-  desc_2: "¿Cómo funciona?",
-  list_items: [
-    "Selección de un organismo acreditado por EMA.",
-    "Verificación del cumplimiento de requisitos técnicos y de gestión.",
-    "Emisión del certificado bajo acreditación oficial.",
-  ],
-  skillbar: [
-    { title: "Confiabilidad técnica", skill: 96 },
-    { title: "Reconocimiento nacional", skill: 89 },
-    { title: "Relevancia normativa", skill: 98 },
-  ],
-  title: "Education Background",
-  img: "/assets/imgs/team/team-single.jpg",
-};
-const team_data2: DataType = {
-  name: "Convenios de Certificación",
-  designation: "Alianzas con Entidades Acreditadas",
-  desc_1:
-    "AMCI facilita el acceso a certificaciones formales mediante convenios con entidades autorizadas.",
-  desc_2: "¿Qué incluye el proceso?",
-  list_items: [
-    "Revisión inicial de elegibilidad por parte de AMCI.",
-    "Canalización a organismo acreditado.",
-    "Seguimiento técnico y asesoría en sitio.",
-    "Aplicación de tarifas preferenciales.",
-  ],
-  skillbar: [
-    { title: "Accesibilidad de procesos", skill: 90 },
-    { title: "Apoyo técnico especializado", skill: 85 },
-    { title: "Descuentos exclusivos", skill: 88 },
-  ],
-  title: "Education Background",
-  img: "/assets/imgs/team/team-single.jpg",
-};
-const team_data3: DataType = {
-  name: "Certificación de Plantas",
-  designation: "Estándares de Calidad Operativa",
-  desc_1:
-    "Evalúa el cumplimiento en producción, almacenamiento y control del concreto.",
-  desc_2: "¿Qué pasos lleva?",
-  list_items: [
-    "Diagnóstico preliminar de cumplimiento.",
-    "Ajustes técnicos y administrativos con acompañamiento.",
-    "Auditoría formal por entidad certificadora.",
-    "Emisión de certificado y seguimiento anual.",
-  ],
-  skillbar: [
-    { title: "Evaluación técnica", skill: 93 },
-    { title: "Control de calidad", skill: 91 },
-    { title: "Impacto comercial", skill: 87 },
-  ],
-  title: "Education Background",
-  img: "/assets/imgs/team/team-single.jpg",
-};
-const team_data4: DataType = {
-  name: "Curso para Plantas de Concreto",
-  designation: "Capacitación en Normativa y Procesos",
-  desc_1: "Formación enfocada en los criterios de certificación de plantas.",
-  desc_2: "¿Qué incluye?",
-  list_items: [
-    "Introducción a normativas clave (NMX y criterios AMCI).",
-    "Casos prácticos sobre control de producción y trazabilidad.",
-    "Simulación de auditorías y checklist.",
-    "Evaluación final y constancia.",
-  ],
-  skillbar: [
-    { title: "Contenido técnico-práctico", skill: 94 },
-    { title: "Aplicabilidad inmediata", skill: 89 },
-    { title: "Satisfacción de participantes", skill: 95 },
-  ],
-  title: "Education Background",
-  img: "/assets/imgs/team/team-single.jpg",
-};
-const team_data5: DataType = {
-  name: "Curso de Operadores Bomba Pluma",
-  designation: "Formación en Seguridad y Eficiencia",
-  desc_1: "Entrenamiento obligatorio para operadores que deseen certificarse.",
-  desc_2: "Pasos del proceso:",
-  list_items: [
-    "Registro con datos de equipo y operador.",
-    "Curso presencial con prácticas y teoría de seguridad.",
-    "Evaluación técnica y operativa.",
-    "Constancia con validez ante autoridades y AMCI.",
-  ],
-  skillbar: [
-    { title: "Mejora en seguridad", skill: 97 },
-    { title: "Reducción de errores", skill: 90 },
-    { title: "Cumplimiento normativo", skill: 91 },
-  ],
-  title: "Education Background",
-  img: "/assets/imgs/team/team-single.jpg",
-};
-
-const teamList = [team_data, team_data2, team_data3, team_data4, team_data5];
+const teamData = [
+  {
+    id: 1,
+    name: "NMX-EC",
+    designation: "Encargado de Validación Técnica",
+    desc_1:
+      "La NMX-EC regula a los organismos de certificación en México. Garantiza imparcialidad, competencia técnica y continuidad operativa en los procesos de acreditación.",
+    desc_2: "¿Cómo funciona?",
+    list_items: [
+      "Selección de un organismo acreditado por EMA.",
+      "Verificación del cumplimiento técnico y de gestión.",
+      "Emisión del certificado bajo normatividad oficial.",
+    ],
+    skillbar: [
+      { title: "Confiabilidad técnica", skill: 96 },
+      { title: "Reconocimiento nacional", skill: 89 },
+      { title: "Relevancia normativa", skill: 98 },
+    ],
+    title: "Education Background",
+    img: "/assets/imgs/team/team-single.jpg",
+  },
+  {
+    id: 2,
+    name: "Convenios de Certificación",
+    designation: "Alianzas con Entidades Acreditadas",
+    desc_1:
+      "AMCI establece convenios con instituciones internacionales como NRMCA, ACPA, IMCYC y ACI para ofrecer cursos especializados y certificaciones con reconocimiento global.",
+    desc_2: "¿Qué incluye el proceso?",
+    list_items: [
+      "Revisión de elegibilidad por AMCI.",
+      "Canalización a entidad acreditada.",
+      "Asesoría técnica y acompañamiento.",
+      "Aplicación de tarifas preferenciales.",
+    ],
+    skillbar: [
+      { title: "Accesibilidad de procesos", skill: 90 },
+      { title: "Apoyo técnico especializado", skill: 85 },
+      { title: "Descuentos exclusivos", skill: 88 },
+    ],
+    title: "Education Background",
+    img: "/assets/imgs/team/team-single.jpg",
+  },
+  {
+    id: 3,
+    name: "Certificación de Plantas",
+    designation: "Estándares de Calidad Operativa",
+    desc_1:
+      "Certificación técnica de plantas concreteras en colaboración con la NRMCA, enfocada en producción, almacenamiento y trazabilidad del concreto.",
+    desc_2: "Pasos a seguir",
+    list_items: [
+      "Envío de solicitud y datos operativos.",
+      "Confirmación de auditoría con aportación.",
+      "Evaluación y envío de check list a NRMCA.",
+      "Emisión del certificado con seguimiento anual.",
+    ],
+    skillbar: [
+      { title: "Evaluación técnica", skill: 93 },
+      { title: "Control de calidad", skill: 91 },
+      { title: "Impacto comercial", skill: 87 },
+    ],
+    title: "Education Background",
+    img: "/assets/imgs/team/team-single.jpg",
+  },
+  {
+    id: 4,
+    name: "Curso para Plantas de Concreto",
+    designation: "Capacitación en Normativa y Procesos",
+    desc_1:
+      "Programa educativo que prepara a productores de concreto para cumplir con los requisitos de certificación nacional e internacional.",
+    desc_2: "Contenido",
+    list_items: [
+      "Revisión de normativas AMCI–NRMCA.",
+      "Casos prácticos y checklist de verificación.",
+      "Evaluación final y constancia oficial.",
+      "Duración: 8 horas + break | Máx. 15 participantes.",
+    ],
+    skillbar: [
+      { title: "Contenido técnico-práctico", skill: 94 },
+      { title: "Aplicabilidad inmediata", skill: 89 },
+      { title: "Satisfacción de participantes", skill: 95 },
+    ],
+    title: "Education Background",
+    img: "/assets/imgs/team/team-single.jpg",
+  },
+  {
+    id: 5,
+    name: "Curso de Operadores Bomba Pluma",
+    designation: "Formación en Seguridad y Eficiencia",
+    desc_1:
+      "Certificación avalada por ACPA. Estándar internacional para operadores de bombas de concreto que promueve prácticas seguras y profesionales.",
+    desc_2: "Pasos del proceso",
+    list_items: [
+      "Registro con datos del operador y equipo.",
+      "Curso teórico-práctico presencial.",
+      "Evaluación final escrita y técnica.",
+      "Constancia con reconocimiento ACPA y AMCI.",
+    ],
+    skillbar: [
+      { title: "Mejora en seguridad", skill: 97 },
+      { title: "Reducción de errores", skill: 90 },
+      { title: "Cumplimiento normativo", skill: 91 },
+    ],
+    title: "Education Background",
+    img: "/assets/imgs/team/team-single.jpg",
+  },
+  {
+    id: 6,
+    name: "Curso de Técnicos en Obra – Grado I (ACI/IMCYC)",
+    designation: "Certificación para Laboratoristas",
+    desc_1:
+      "Programa oficial ACI–IMCYC para pruebas al concreto fresco en campo. Requisito previo para certificar supervisores de obra.",
+    desc_2: "Incluye",
+    list_items: [
+      "Curso teórico + práctico.",
+      "Exámenes escritos y de desempeño.",
+      "Certificado ACI (vigencia 5 años).",
+      "Asistencia personalizada para recertificación.",
+    ],
+    skillbar: [
+      { title: "Nivel técnico adquirido", skill: 92 },
+      { title: "Mejora en supervisión", skill: 90 },
+      { title: "Reconocimiento internacional", skill: 93 },
+    ],
+    title: "Education Background",
+    img: "/assets/imgs/team/team-single.jpg",
+  },
+];
 
 const TeamDetailsArea = () => {
   return (
@@ -147,7 +175,7 @@ const TeamDetailsArea = () => {
           </div>
         </div>
         {/* Componentes de detalle */}
-        {teamList.map((member, idx) => (
+        {teamData.map((member, idx) => (
           <div className="team-member-info mb-80" key={idx}>
             <div className="row">
               <div className="col-xxl-5">
